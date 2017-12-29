@@ -7,12 +7,15 @@ set(glew_root_dir ${CMAKE_SOURCE_DIR}/glew)
 set(glfw_root_dir ${CMAKE_SOURCE_DIR}/glfw)
 set(imgui_root_dir ${CMAKE_SOURCE_DIR}/imgui)
 set(testbed_root_dir ${CMAKE_SOURCE_DIR}/testbed)
-
+set(glm_root_dir ${CMAKE_SOURCE_DIR}/glm/glm)
 
 set(CMAKE_C_FLAGS_DEBUG "-g -Wall")
 set(CMAKE_CXX_FLAGS_DEBUG ${CMAKE_C_FLAGS_DEBUG})
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wno-deprecated-declarations -Wno-reorder")
+
+
+set(GLM_STATIC_LIBRARY_ENABLE 1)
 
 
 # include_directories(
@@ -46,14 +49,18 @@ foreach(FILE ${ALL_FILES})
 endforeach()
 
 
+include_directories(${CMAKE_SOURCE_DIR}/Classes)
+include_directories(${glm_root_dir})
+
 add_subdirectory(${box2d_root_dir})
 add_subdirectory(${glew_root_dir})
 add_subdirectory(${glfw_root_dir})
 add_subdirectory(${imgui_root_dir})
 add_subdirectory(${testbed_root_dir})
+add_subdirectory(${glm_root_dir})
 
 add_executable(project_name ${ALL_FILES})
-target_link_libraries(project_name ${glew_lib_name} ${glfw_lib_name} imgui box2d)
+target_link_libraries(project_name ${glew_lib_name} ${glfw_lib_name} imgui box2d glm_static)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${PROJECT_NAME})
