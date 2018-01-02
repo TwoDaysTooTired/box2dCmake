@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48A181C33FA0418CBA0CA84D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				232728BC103F4596BCB9E8AC /* CMake Rules */,
+			);
+			dependencies = (
+				F2D4FBDCC7A84FDEA5DF079F /* PBXTargetDependency */,
+				2814A1091A924A5495A5E705 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EFBFC82B2B19495A95EB7EA3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				056F8882070043C485A5468A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		ED9E425F625D429999396885 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 44EC6662BDD447A5BA475574 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				B08EA798AC2B4C568E4476C6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				08F39F1844C64138838322DF /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D49B58E61724019875E1F65 /* /Users/wusunquan/Documents/box/glfw/glfw_config.h */ = {isa = PBXBuildFile; fileRef = D076EC8E93554F67A79941F4 /* /Users/wusunquan/Documents/box/glfw/glfw_config.h */; };
+		0DA8EAEE814B478F8DB96CFE /* /Users/wusunquan/Documents/box/glfw/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 10AF62C38D2B47B4B170C115 /* /Users/wusunquan/Documents/box/glfw/cocoa_time.c */; };
+		13693D9AF1834856B01C0CF2 /* /Users/wusunquan/Documents/box/glfw/monitor.c */ = {isa = PBXBuildFile; fileRef = BBC2D17DCAA348438261A754 /* /Users/wusunquan/Documents/box/glfw/monitor.c */; };
+		1E394AFBE43549A98E2183A6 /* /Users/wusunquan/Documents/box/glfw/egl_context.h */ = {isa = PBXBuildFile; fileRef = BF91E8699B214945A4A29C3F /* /Users/wusunquan/Documents/box/glfw/egl_context.h */; };
+		2756EDD02145446DA3D53CCD /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CFCDE162215D43AAA11640BB /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */; };
+		2B64E59558B64C539B60E442 /* /Users/wusunquan/Documents/box/glfw/internal.h */ = {isa = PBXBuildFile; fileRef = F15FBD8B13734F8F8559B52D /* /Users/wusunquan/Documents/box/glfw/internal.h */; };
+		323B2BD03DBA4EB796313A51 /* /Users/wusunquan/Documents/box/glfw/egl_context.c */ = {isa = PBXBuildFile; fileRef = 48B4205EF10A44359DF0D8A7 /* /Users/wusunquan/Documents/box/glfw/egl_context.c */; };
+		3ECF29927DD842D3843E6045 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 0121C7B031C04EACA558F930 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.h */; };
+		43A6DAD1BAF442F2BD7EB263 /* /Users/wusunquan/Documents/box/glfw/input.c */ = {isa = PBXBuildFile; fileRef = 5EC72D1394D74AAA9590A314 /* /Users/wusunquan/Documents/box/glfw/input.c */; };
+		4583E06C01B44B6D9C58BEE6 /* /Users/wusunquan/Documents/box/glfw/glfw3.h */ = {isa = PBXBuildFile; fileRef = 89D24D37EBF74BE48FA76C8F /* /Users/wusunquan/Documents/box/glfw/glfw3.h */; };
+		51E58FB1BBE34736B80CB060 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 211A35CF9C7246AF98BCE436 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.m */; };
+		52F8B29454664A948BF92639 /* /Users/wusunquan/Documents/box/glfw/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 313D1AFB8F2047479AB6E597 /* /Users/wusunquan/Documents/box/glfw/cocoa_platform.h */; };
+		53501AD9AEF74D77A743F7DD /* /Users/wusunquan/Documents/box/glfw/posix_tls.c */ = {isa = PBXBuildFile; fileRef = B3F554DAC2A943279DB4EED3 /* /Users/wusunquan/Documents/box/glfw/posix_tls.c */; };
+		863BA5EA3FE24485A9AD6B90 /* /Users/wusunquan/Documents/box/glfw/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = A0E9CCFF08C1416BBB5DF9DF /* /Users/wusunquan/Documents/box/glfw/cocoa_monitor.m */; };
+		867BA372655D48DEAC83C193 /* /Users/wusunquan/Documents/box/glfw/context.c */ = {isa = PBXBuildFile; fileRef = F39E78A6437F404FBF53E78E /* /Users/wusunquan/Documents/box/glfw/context.c */; };
+		8903567CDE0D44D7872CF3A4 /* /Users/wusunquan/Documents/box/glfw/vulkan.c */ = {isa = PBXBuildFile; fileRef = C175373EA0994C3BB1EDFC51 /* /Users/wusunquan/Documents/box/glfw/vulkan.c */; };
+		8C615625E4EA4A6EBEB7E0E4 /* /Users/wusunquan/Documents/box/glfw/window.c */ = {isa = PBXBuildFile; fileRef = 04D2DB6BA1B642EEA48761D9 /* /Users/wusunquan/Documents/box/glfw/window.c */; };
+		A315C331509F416A860581F2 /* /Users/wusunquan/Documents/box/glfw/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 6B287E7CEAD24375BCE78C43 /* /Users/wusunquan/Documents/box/glfw/posix_tls.h */; };
+		A8F735FE0F7743329EDCA4F3 /* /Users/wusunquan/Documents/box/glfw/init.c */ = {isa = PBXBuildFile; fileRef = 710C8F0B680C4E788C450709 /* /Users/wusunquan/Documents/box/glfw/init.c */; };
+		AA7DCEF89F774AE89CD20D29 /* /Users/wusunquan/Documents/box/glfw/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 9116F15F17ED473EBE2958D5 /* /Users/wusunquan/Documents/box/glfw/cocoa_window.m */; };
+		ABEC73E0BD6C4750B985318D /* /Users/wusunquan/Documents/box/glfw/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 8D68EFC8813546EB8DA596F8 /* /Users/wusunquan/Documents/box/glfw/cocoa_init.m */; };
+		B8798B0EB2F1463695468A6C /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = C91B996BB5614099A66853DD /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.m */; };
+		EB7381FD55AF405CA9FF72CC /* /Users/wusunquan/Documents/box/glfw/glfw3native.h */ = {isa = PBXBuildFile; fileRef = EB375986F4414422AB2E42FF /* /Users/wusunquan/Documents/box/glfw/glfw3native.h */; };
+		FD9B522AF93148C29089981E /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = D2EDE770891B4C8CA34CC1D8 /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		42A058691C3341C58C7681EB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A524BF28D8984B64A424F8C8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D2D69A96130A4900856411F9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F26E0E36BBC7437A83EDAF9B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		56DAB8EB3ACC4286AED8CBC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A8FC11F2B94808AD0799D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C2A3A62D8F4DCA9A6A2686;
+			remoteInfo = ALL_BUILD;
+		};
+		B2FFBD75F9B14E73A942BCFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A8FC11F2B94808AD0799D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39BBD271C5A742BBB330478E;
+			remoteInfo = glfw;
+		};
+		DBA91C85D6394C81BE2A3798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A8FC11F2B94808AD0799D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+		E775D26EBDB34116A62AAA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A8FC11F2B94808AD0799D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0121C7B031C04EACA558F930 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		04D2DB6BA1B642EEA48761D9 /* /Users/wusunquan/Documents/box/glfw/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = window.c; sourceTree = SOURCE_ROOT; };
+		10AF62C38D2B47B4B170C115 /* /Users/wusunquan/Documents/box/glfw/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		126E0AD6E1B647BDA3F39E62 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9853258E1F4449A462DF83 /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		211A35CF9C7246AF98BCE436 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		313D1AFB8F2047479AB6E597 /* /Users/wusunquan/Documents/box/glfw/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		48B4205EF10A44359DF0D8A7 /* /Users/wusunquan/Documents/box/glfw/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = egl_context.c; sourceTree = SOURCE_ROOT; };
+		4A0C6193D6C64DA89735DC64 /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5EC72D1394D74AAA9590A314 /* /Users/wusunquan/Documents/box/glfw/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = input.c; sourceTree = SOURCE_ROOT; };
+		6B287E7CEAD24375BCE78C43 /* /Users/wusunquan/Documents/box/glfw/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = posix_tls.h; sourceTree = SOURCE_ROOT; };
+		710C8F0B680C4E788C450709 /* /Users/wusunquan/Documents/box/glfw/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = init.c; sourceTree = SOURCE_ROOT; };
+		89D24D37EBF74BE48FA76C8F /* /Users/wusunquan/Documents/box/glfw/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = glfw3.h; sourceTree = SOURCE_ROOT; };
+		8D68EFC8813546EB8DA596F8 /* /Users/wusunquan/Documents/box/glfw/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		9116F15F17ED473EBE2958D5 /* /Users/wusunquan/Documents/box/glfw/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		A0E9CCFF08C1416BBB5DF9DF /* /Users/wusunquan/Documents/box/glfw/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		B3F554DAC2A943279DB4EED3 /* /Users/wusunquan/Documents/box/glfw/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = posix_tls.c; sourceTree = SOURCE_ROOT; };
+		BBC2D17DCAA348438261A754 /* /Users/wusunquan/Documents/box/glfw/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = monitor.c; sourceTree = SOURCE_ROOT; };
+		BF91E8699B214945A4A29C3F /* /Users/wusunquan/Documents/box/glfw/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = egl_context.h; sourceTree = SOURCE_ROOT; };
+		C175373EA0994C3BB1EDFC51 /* /Users/wusunquan/Documents/box/glfw/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = vulkan.c; sourceTree = SOURCE_ROOT; };
+		C91B996BB5614099A66853DD /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		CFCDE162215D43AAA11640BB /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D076EC8E93554F67A79941F4 /* /Users/wusunquan/Documents/box/glfw/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = glfw_config.h; sourceTree = SOURCE_ROOT; };
+		D2EDE770891B4C8CA34CC1D8 /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		EB375986F4414422AB2E42FF /* /Users/wusunquan/Documents/box/glfw/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = glfw3native.h; sourceTree = SOURCE_ROOT; };
+		F15FBD8B13734F8F8559B52D /* /Users/wusunquan/Documents/box/glfw/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = internal.h; sourceTree = SOURCE_ROOT; };
+		F39E78A6437F404FBF53E78E /* /Users/wusunquan/Documents/box/glfw/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = context.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0551BA558B534478ABA3FB65 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				331520F5D4CD4F76A6FC8034 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		331520F5D4CD4F76A6FC8034 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				72FF8E86600E4AAF87C99A37 /* Source Files */,
+				6AE49C8315924ACEA283FF5A /* Header Files */,
+				CFCDE162215D43AAA11640BB /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		6AE49C8315924ACEA283FF5A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDE770891B4C8CA34CC1D8 /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.h */,
+				313D1AFB8F2047479AB6E597 /* /Users/wusunquan/Documents/box/glfw/cocoa_platform.h */,
+				BF91E8699B214945A4A29C3F /* /Users/wusunquan/Documents/box/glfw/egl_context.h */,
+				89D24D37EBF74BE48FA76C8F /* /Users/wusunquan/Documents/box/glfw/glfw3.h */,
+				EB375986F4414422AB2E42FF /* /Users/wusunquan/Documents/box/glfw/glfw3native.h */,
+				D076EC8E93554F67A79941F4 /* /Users/wusunquan/Documents/box/glfw/glfw_config.h */,
+				F15FBD8B13734F8F8559B52D /* /Users/wusunquan/Documents/box/glfw/internal.h */,
+				0121C7B031C04EACA558F930 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.h */,
+				6B287E7CEAD24375BCE78C43 /* /Users/wusunquan/Documents/box/glfw/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		72FF8E86600E4AAF87C99A37 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D68EFC8813546EB8DA596F8 /* /Users/wusunquan/Documents/box/glfw/cocoa_init.m */,
+				C91B996BB5614099A66853DD /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.m */,
+				A0E9CCFF08C1416BBB5DF9DF /* /Users/wusunquan/Documents/box/glfw/cocoa_monitor.m */,
+				10AF62C38D2B47B4B170C115 /* /Users/wusunquan/Documents/box/glfw/cocoa_time.c */,
+				9116F15F17ED473EBE2958D5 /* /Users/wusunquan/Documents/box/glfw/cocoa_window.m */,
+				F39E78A6437F404FBF53E78E /* /Users/wusunquan/Documents/box/glfw/context.c */,
+				48B4205EF10A44359DF0D8A7 /* /Users/wusunquan/Documents/box/glfw/egl_context.c */,
+				710C8F0B680C4E788C450709 /* /Users/wusunquan/Documents/box/glfw/init.c */,
+				5EC72D1394D74AAA9590A314 /* /Users/wusunquan/Documents/box/glfw/input.c */,
+				BBC2D17DCAA348438261A754 /* /Users/wusunquan/Documents/box/glfw/monitor.c */,
+				211A35CF9C7246AF98BCE436 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.m */,
+				B3F554DAC2A943279DB4EED3 /* /Users/wusunquan/Documents/box/glfw/posix_tls.c */,
+				C175373EA0994C3BB1EDFC51 /* /Users/wusunquan/Documents/box/glfw/vulkan.c */,
+				04D2DB6BA1B642EEA48761D9 /* /Users/wusunquan/Documents/box/glfw/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8110B6CECDC946C08E1FE65A /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				86811651C232413E8BEA47E6 /* CMake Rules */,
+				4A0C6193D6C64DA89735DC64 /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		86811651C232413E8BEA47E6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8F505D95604A4188926F1BE2 = {
+			isa = PBXGroup;
+			children = (
+				0551BA558B534478ABA3FB65 /* GLFW3 */,
+				E2C8A5C34ABA455C9DC85B5E /* ALL_BUILD */,
+				8110B6CECDC946C08E1FE65A /* ZERO_CHECK */,
+				C431CB92A43948429267FCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C431CB92A43948429267FCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126E0AD6E1B647BDA3F39E62 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD28F638B6948F19CE35F85 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E2C8A5C34ABA455C9DC85B5E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CCD28F638B6948F19CE35F85 /* CMake Rules */,
+				1F9853258E1F4449A462DF83 /* /Users/wusunquan/Documents/box/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39BBD271C5A742BBB330478E /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856D29CB5AA84B4EAB8C137C /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				41DE433ECA9F48DDA8A15A98 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C76C9D71A424CCBB11C490D /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 126E0AD6E1B647BDA3F39E62 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A8FC11F2B94808AD0799D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 20A3FF0D044B4BEFBA89FF08 /* Build configuration list for PBXProject "glfw" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D2D69A96130A4900856411F9 /* Debug */,
+				A524BF28D8984B64A424F8C8 /* Release */,
+				F26E0E36BBC7437A83EDAF9B /* MinSizeRel */,
+				42A058691C3341C58C7681EB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8F505D95604A4188926F1BE2;
+			projectDirPath = ../../glfw;
+			projectRoot = "";
+			targets = (
+				10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */,
+				8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */,
+				39BBD271C5A742BBB330478E /* glfw */,
+				ED9E425F625D429999396885 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056F8882070043C485A5468A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/glfw -f /Users/wusunquan/Documents/box/build/glfw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		232728BC103F4596BCB9E8AC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/glfw -f /Users/wusunquan/Documents/box/build/glfw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5721A9AE67D94CBD97439ECC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6334ACDE2A5C4F8FB93C7280 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9F0E079E5A9D473F85FDCF52 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B08EA798AC2B4C568E4476C6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/glfw -f /Users/wusunquan/Documents/box/build/glfw/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41DE433ECA9F48DDA8A15A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEC73E0BD6C4750B985318D /* /Users/wusunquan/Documents/box/glfw/cocoa_init.m */,
+				B8798B0EB2F1463695468A6C /* /Users/wusunquan/Documents/box/glfw/cocoa_joystick.m */,
+				863BA5EA3FE24485A9AD6B90 /* /Users/wusunquan/Documents/box/glfw/cocoa_monitor.m */,
+				0DA8EAEE814B478F8DB96CFE /* /Users/wusunquan/Documents/box/glfw/cocoa_time.c */,
+				AA7DCEF89F774AE89CD20D29 /* /Users/wusunquan/Documents/box/glfw/cocoa_window.m */,
+				867BA372655D48DEAC83C193 /* /Users/wusunquan/Documents/box/glfw/context.c */,
+				323B2BD03DBA4EB796313A51 /* /Users/wusunquan/Documents/box/glfw/egl_context.c */,
+				A8F735FE0F7743329EDCA4F3 /* /Users/wusunquan/Documents/box/glfw/init.c */,
+				43A6DAD1BAF442F2BD7EB263 /* /Users/wusunquan/Documents/box/glfw/input.c */,
+				13693D9AF1834856B01C0CF2 /* /Users/wusunquan/Documents/box/glfw/monitor.c */,
+				51E58FB1BBE34736B80CB060 /* /Users/wusunquan/Documents/box/glfw/nsgl_context.m */,
+				53501AD9AEF74D77A743F7DD /* /Users/wusunquan/Documents/box/glfw/posix_tls.c */,
+				8903567CDE0D44D7872CF3A4 /* /Users/wusunquan/Documents/box/glfw/vulkan.c */,
+				8C615625E4EA4A6EBEB7E0E4 /* /Users/wusunquan/Documents/box/glfw/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08F39F1844C64138838322DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */;
+			targetProxy = 56DAB8EB3ACC4286AED8CBC1 /* PBXContainerItemProxy */;
+		};
+		2814A1091A924A5495A5E705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = E775D26EBDB34116A62AAA01 /* PBXContainerItemProxy */;
+		};
+		7C76C9D71A424CCBB11C490D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = DBA91C85D6394C81BE2A3798 /* PBXContainerItemProxy */;
+		};
+		F2D4FBDCC7A84FDEA5DF079F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39BBD271C5A742BBB330478E /* glfw */;
+			targetProxy = B2FFBD75F9B14E73A942BCFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E9B889D06C8468D9F680DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"'_XOPEN_SOURCE=600'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99    -Wall -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2538A9E02ED94AC1A2AF18C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		27313BD2E77A4DE9A0D84D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2C7D950342F74F10B013E910 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		32788402FDE544AA8E8A1299 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw/build;
+			};
+			name = RelWithDebInfo;
+		};
+		328513FD51E84CD59524D8BF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3F48A0D1DDA046D29F3BBBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4067669CCF7441BE98F07489 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D5DEB20AEA140EF814D9E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"'_XOPEN_SOURCE=600'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99     -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6FA8C5C6DAA944C6B4263F49 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw/build;
+			};
+			name = MinSizeRel;
+		};
+		7E85D7CB3C9844279D932027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8C731494A47A4686A18AE1C1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		91B35A443AEF47F1AFEB9617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BBB4BD059F8844A1A94B369E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw/build;
+			};
+			name = Release;
+		};
+		BDB447D1538E4C03B6F03EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw/build;
+			};
+			name = Debug;
+		};
+		E08C6B60D875485DAFA86D7A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E5184C75161F450180BDF8A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F3F8D1A7704A4D5788189A35 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"'_XOPEN_SOURCE=600'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99        -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F55997EB624B46EE9A8F7463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F749B01DD6AC4F71A8384A8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"'_XOPEN_SOURCE=600'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99     -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20A3FF0D044B4BEFBA89FF08 /* Build configuration list for PBXProject "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB447D1538E4C03B6F03EE6 /* Debug */,
+				BBB4BD059F8844A1A94B369E /* Release */,
+				6FA8C5C6DAA944C6B4263F49 /* MinSizeRel */,
+				32788402FDE544AA8E8A1299 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44EC6662BDD447A5BA475574 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55997EB624B46EE9A8F7463 /* Debug */,
+				3F48A0D1DDA046D29F3BBBCC /* Release */,
+				4067669CCF7441BE98F07489 /* MinSizeRel */,
+				8C731494A47A4686A18AE1C1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48A181C33FA0418CBA0CA84D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E85D7CB3C9844279D932027 /* Debug */,
+				27313BD2E77A4DE9A0D84D76 /* Release */,
+				E5184C75161F450180BDF8A2 /* MinSizeRel */,
+				328513FD51E84CD59524D8BF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		856D29CB5AA84B4EAB8C137C /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9B889D06C8468D9F680DAD /* Debug */,
+				5D5DEB20AEA140EF814D9E6F /* Release */,
+				F749B01DD6AC4F71A8384A8E /* MinSizeRel */,
+				F3F8D1A7704A4D5788189A35 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFBFC82B2B19495A95EB7EA3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B35A443AEF47F1AFEB9617 /* Debug */,
+				2538A9E02ED94AC1A2AF18C7 /* Release */,
+				2C7D950342F74F10B013E910 /* MinSizeRel */,
+				E08C6B60D875485DAFA86D7A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A8FC11F2B94808AD0799D2 /* Project object */;
+}

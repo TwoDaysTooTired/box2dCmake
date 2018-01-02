@@ -1,0 +1,11 @@
+set(box2dTestbed_name testbed)
+project(${box2dTestbed_name})
+
+include_directories(${PROJECT_SOURCE_DIR})
+file(GLOB_RECURSE resources "*.*")
+file(GLOB_RECURSE headers "*.h")
+file(GLOB_RECURSE sources "*.cpp")
+message(STATUS "testbed header files: ${headers}")
+message(STATUS "testbed sources files: ${sources}")
+add_executable(${box2dTestbed_name} ${headers} ${sources} ${resources})
+target_link_libraries(${box2dTestbed_name} Box2D glew glfw imgui glm_static)

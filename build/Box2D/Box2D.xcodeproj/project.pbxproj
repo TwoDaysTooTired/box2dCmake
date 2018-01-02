@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 29F38E2B7F1F46BC9838B101 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A14AEF66CF6545EE8ED2EC30 /* CMake Rules */,
+			);
+			dependencies = (
+				F7EA1C8A248B4649AFA9D8EC /* PBXTargetDependency */,
+				A27C02272680492EB718B3C7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A2B0840FA5624727820BAFC5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				837F5A96CD8C443CA9439C5A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		ED9E425F625D429999396885 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BC4397A867F24B3C99F9C21B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				E556845EDDF640BCBE784548 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				606CD960B79B46A997988AEA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0082B37FF0164391BDC52E97 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.cpp */ = {isa = PBXBuildFile; fileRef = 43812EFA356D40E489E8BA5A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.cpp */; };
+		02BB43D8ADF84BB39EF9B47D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h */ = {isa = PBXBuildFile; fileRef = 42924D63BCB24E469C5D5811 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h */; };
+		02C0F0566EE447E2B7F47ADB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.cpp */ = {isa = PBXBuildFile; fileRef = 32AC765E313B46939F897E62 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.cpp */; };
+		0625DC4FF84A45A693B35DBB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp */ = {isa = PBXBuildFile; fileRef = 334A8D02668A4A5AABE4CFE8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp */; };
+		06C83891071B4F699C4A8C65 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp */ = {isa = PBXBuildFile; fileRef = C646D70EAFBF4B2CB77428AF /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp */; };
+		07E667416DF14496AAF8E1A7 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideCircle.cpp */ = {isa = PBXBuildFile; fileRef = C8DA20D1CDB54293A5076D4F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideCircle.cpp */; };
+		0848C88F60B9401D96A695AA /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.cpp */ = {isa = PBXBuildFile; fileRef = 60DFEEB55C9E4E2E954043B3 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.cpp */; };
+		09567898FEB94DF08DF60C5A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.h */ = {isa = PBXBuildFile; fileRef = E6070E8E0CCE4545BC91E94F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.h */; };
+		0B4B585D68054682A6EE92E3 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2Shape.h */ = {isa = PBXBuildFile; fileRef = 8629D6FEC0B349A5A94BD018 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2Shape.h */; };
+		0B7155CE439C4D13BA083AFD /* /Users/wusunquan/Documents/box/Box2D/Common/b2GrowableStack.h */ = {isa = PBXBuildFile; fileRef = 1A9BD7708E4440B499F70F73 /* /Users/wusunquan/Documents/box/Box2D/Common/b2GrowableStack.h */; };
+		0B775279F6AE4562A53D1ACD /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.cpp */ = {isa = PBXBuildFile; fileRef = 5ACFEBF7C83A4DACA718E98A /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.cpp */; };
+		0D1CFBE7EA314409953713AB /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F9024B28BF1A4D0EB6067639 /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */; };
+		195D3DA9FB594A068A3670C2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.h */ = {isa = PBXBuildFile; fileRef = 4D3549D3AA304C0DB1AE38CD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.h */; };
+		1CF274A4C56649CB90298AEA /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.h */ = {isa = PBXBuildFile; fileRef = 7C393875DA8D4DFBA18DEE75 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.h */; };
+		257A775C581B44C4A27DEF8F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.cpp */ = {isa = PBXBuildFile; fileRef = F54203000ECD44429687B45C /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.cpp */; };
+		279F519F253B48DFB3E7441E /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.h */ = {isa = PBXBuildFile; fileRef = A92F07275F6F4BEB97D453B3 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.h */; };
+		27F2DC8019FE4E81B4025510 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.cpp */ = {isa = PBXBuildFile; fileRef = CFAB25B834784FFA855BB431 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.cpp */; };
+		28CB4E1A446A44A2B9C13382 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.cpp */ = {isa = PBXBuildFile; fileRef = BDB4AB06F6F8434C90742952 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.cpp */; };
+		29B63BD13FE246AAA80BAD22 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.h */ = {isa = PBXBuildFile; fileRef = 54E89CAC96F04BAFA5146A12 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.h */; };
+		2E8BACA35CF148A5AB226953 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.cpp */ = {isa = PBXBuildFile; fileRef = 8FDE15786EB447F399A76513 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.cpp */; };
+		2EC793AE6D3E424FA75EEA21 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.cpp */ = {isa = PBXBuildFile; fileRef = 0950F0EFAC96470DA5B65F82 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.cpp */; };
+		31D1AB441ED54849B461C656 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp */ = {isa = PBXBuildFile; fileRef = 1B6256D5704B4A25BB44EB27 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp */; };
+		35779B2D152F42C79C112C38 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.h */ = {isa = PBXBuildFile; fileRef = 3931A3F72DAF401D8618F89F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.h */; };
+		3727E663DA344195BAEA21BA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.h */ = {isa = PBXBuildFile; fileRef = B17CB1DCCFA1407FB2F01EBE /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.h */; };
+		376E04F34DE64FA090BABCD7 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h */ = {isa = PBXBuildFile; fileRef = 23195C2444C4436C8B47758D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h */; };
+		380F4E8C80B54ED7803215EF /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp */ = {isa = PBXBuildFile; fileRef = 6D751335C85E4AC0A1367D3E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp */; };
+		3CB8BC2533B6473EB0C10C8F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.cpp */ = {isa = PBXBuildFile; fileRef = 35EA533D8C314F23B450A81B /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.cpp */; };
+		453DA5A4C2384AD2855A25E7 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.h */ = {isa = PBXBuildFile; fileRef = FC2FBC816A5D493DB64F42DD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.h */; };
+		45AB3255E3D844A6A5D5FD24 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h */ = {isa = PBXBuildFile; fileRef = 069E70CBA4EB4D35A4FB6B92 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h */; };
+		49E1C833370F4D0EBABD1940 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.cpp */ = {isa = PBXBuildFile; fileRef = C0B5D6D3D99E4EF586E06DAE /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.cpp */; };
+		4A4C955F5B8C4C4DA7902E38 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.h */ = {isa = PBXBuildFile; fileRef = 42F30A9684AD4CFE90E72B87 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.h */; };
+		4BB91731E1D343F9B999986E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.h */ = {isa = PBXBuildFile; fileRef = D49F21BD9C26402FA39161A3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.h */; };
+		4CF73F67A9A744DF8847EABE /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.h */ = {isa = PBXBuildFile; fileRef = 40C4E7EA52E04DE68D66B162 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.h */; };
+		4DB49D779F914762AA2B107B /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp */ = {isa = PBXBuildFile; fileRef = 777DBECB5AE841A09025789F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp */; };
+		5491D8C0656441129737D4B1 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.h */ = {isa = PBXBuildFile; fileRef = 38F607A3178A4CDA96AEF191 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.h */; };
+		596E23012A78451397AACDC8 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.h */ = {isa = PBXBuildFile; fileRef = 6B6689407CD04CD7922FFC1C /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.h */; };
+		6085DB4C2C39462C9CF8F7F9 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.cpp */ = {isa = PBXBuildFile; fileRef = 8FCAC9703EC54638B782B87C /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.cpp */; };
+		61E08383B0174A74984E4FBD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.cpp */ = {isa = PBXBuildFile; fileRef = C1E57E4F2CBB4ADA9720D476 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.cpp */; };
+		62591F0BB8F84C5EA2BA0AFD /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.h */ = {isa = PBXBuildFile; fileRef = 34553EAD87AC452FB02632B3 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.h */; };
+		680420117CC741F7A6D6094F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.cpp */ = {isa = PBXBuildFile; fileRef = 645DE0411B204497834F96FB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.cpp */; };
+		680B196F427B408DB2A17775 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.cpp */ = {isa = PBXBuildFile; fileRef = 2EA7C6FF05134863AC41217B /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.cpp */; };
+		6A3A1A89B57347B1B20FF480 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.h */ = {isa = PBXBuildFile; fileRef = B1B7F6FD5E0B4546A6AF5B89 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.h */; };
+		6C438B2538274CA4B3356A8D /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.cpp */ = {isa = PBXBuildFile; fileRef = C842922A0EBC44D7BD7330FE /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.cpp */; };
+		71066C02EFDB44B99632AFBA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.cpp */ = {isa = PBXBuildFile; fileRef = 779228F6B4094264926521C5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.cpp */; };
+		7594A7C24A3940B2B75A563B /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.cpp */ = {isa = PBXBuildFile; fileRef = CC7746252C3D47B6A96EB36C /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.cpp */; };
+		759A3B0426E0401CBC2E6B62 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.cpp */ = {isa = PBXBuildFile; fileRef = 4F6A2EFAE6A74AC68454DF32 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.cpp */; };
+		784FA58FD063495E9418A0F8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.cpp */ = {isa = PBXBuildFile; fileRef = A39ACE6500584129BB4BB5D2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.cpp */; };
+		7A71963198E148C19CA95347 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.h */ = {isa = PBXBuildFile; fileRef = 82617F64122B45E2960F19DA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.h */; };
+		7C691FAA4673447AA481A58D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.h */ = {isa = PBXBuildFile; fileRef = E2659227EF7D467A8AFF21E3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.h */; };
+		7D14BC9CB9784A5392E909EC /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h */ = {isa = PBXBuildFile; fileRef = A6A4736E5C0B4AA0ABF2A056 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h */; };
+		81AC2E1603404E0FAD58F835 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.h */ = {isa = PBXBuildFile; fileRef = 676D16C5459A4091B27E9F3D /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.h */; };
+		837E6477C61940D487BC28BA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.h */ = {isa = PBXBuildFile; fileRef = F3D2EAE74F954AF6A491E2F5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.h */; };
+		8BCCBC4B98AB4C3CAAA85B13 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideEdge.cpp */ = {isa = PBXBuildFile; fileRef = 55749A2FBF174CCF9D17D413 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideEdge.cpp */; };
+		8EE20BEE1C084691906DFE97 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.cpp */ = {isa = PBXBuildFile; fileRef = D9D54E41131C490AACCAE267 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.cpp */; };
+		91E2B3630629481A8A6F2FE4 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.cpp */ = {isa = PBXBuildFile; fileRef = DEDA0D2178C246C69851E630 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.cpp */; };
+		952A20FFA41C469A811DFAE0 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2TimeStep.h */ = {isa = PBXBuildFile; fileRef = 68C9778680524471AA740E59 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2TimeStep.h */; };
+		98A569088F044C198EF93F21 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp */ = {isa = PBXBuildFile; fileRef = AD7618AD2C5F494C9896968E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp */; };
+		991E799FF07A4912BD4F77D7 /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.h */ = {isa = PBXBuildFile; fileRef = 15141061AFA946D392143F37 /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.h */; };
+		9CFA56AE32BC44D3825A5C4D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.h */ = {isa = PBXBuildFile; fileRef = 2BF8F3FF8AF741B1B8B18BB8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.h */; };
+		A0C0A9969BB74D9F93AC1EF5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.h */ = {isa = PBXBuildFile; fileRef = 95CF1E70CBAD4DD8AD8D9070 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.h */; };
+		A183AB9CFDA64A969D6FF13A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.h */ = {isa = PBXBuildFile; fileRef = C679B5DCE1D345858691CFBB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.h */; };
+		A62FBE943B434B17B632EE2F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.h */ = {isa = PBXBuildFile; fileRef = 630D5919BFA144949BC4504F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.h */; };
+		A76510EE58BB43E69A9F40B3 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.cpp */ = {isa = PBXBuildFile; fileRef = 67E5155F74464CC5926B8C9B /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.cpp */; };
+		A837A4C1CFAD46FE8EF7D355 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.cpp */ = {isa = PBXBuildFile; fileRef = 448AEA7DF80A48BB87FC1824 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.cpp */; };
+		AE235F29B6BB474189657761 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.cpp */ = {isa = PBXBuildFile; fileRef = 9732F7281670470187231CE1 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.cpp */; };
+		B0C7FE5687714162941C90E7 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.cpp */ = {isa = PBXBuildFile; fileRef = 10985729F3474E9C8952A5D5 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.cpp */; };
+		B8D9770CF4214AABA946595A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.cpp */ = {isa = PBXBuildFile; fileRef = 5B2F4B0835A3481C8252961D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.cpp */; };
+		BB66393132E8484C853C867B /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.h */ = {isa = PBXBuildFile; fileRef = 09F4A556798E4F0EA99581C2 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.h */; };
+		BC4146EE53BC420E8572459D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.cpp */ = {isa = PBXBuildFile; fileRef = CEFDE74E659744449EB587AA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.cpp */; };
+		BD39E264D054452C9D717D2A /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.cpp */ = {isa = PBXBuildFile; fileRef = 017B2A693F324465A51BB41E /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.cpp */; };
+		C35F722EC113438CB921B0C3 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.h */ = {isa = PBXBuildFile; fileRef = 8F6F7B256FDD43ECA8FF8825 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.h */; };
+		C4D5BB1EF1314BE1A52EDD50 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.h */ = {isa = PBXBuildFile; fileRef = BD17BDAC99D94067B8EB87F8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.h */; };
+		C830B18A4A4A4EC6BC1B44A7 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.cpp */ = {isa = PBXBuildFile; fileRef = 1B3180BD6AE747CB9BC6F29F /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.cpp */; };
+		CDE5A0448010461087C6D668 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.h */ = {isa = PBXBuildFile; fileRef = 4528A6DB5EB240FCBA59ED42 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.h */; };
+		CF12183C06F84790A52E0AD3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.cpp */ = {isa = PBXBuildFile; fileRef = 3635A4C5A3A9416F8ABC15C2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.cpp */; };
+		D579532E14FE4B6083BB4A25 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.cpp */ = {isa = PBXBuildFile; fileRef = D9C11C511A0E483F8AA60AAA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.cpp */; };
+		D7879EA06729474FBA3C32EB /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.h */ = {isa = PBXBuildFile; fileRef = 5DE2A1344D224398A1FAC1E9 /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.h */; };
+		D855355F280D440AB212BABC /* /Users/wusunquan/Documents/box/Box2D/Box2D.h */ = {isa = PBXBuildFile; fileRef = B9F3F2D88FE546D9871974BA /* /Users/wusunquan/Documents/box/Box2D/Box2D.h */; };
+		DBBDC0CBDE7F4390AB58F85E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.cpp */ = {isa = PBXBuildFile; fileRef = B273B5C9A942437B8101D977 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.cpp */; };
+		DD83C408B4D844EB8039A05D /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.cpp */ = {isa = PBXBuildFile; fileRef = C366CDD2A3934EEBA6A0B05C /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.cpp */; };
+		DEE3F4286DC14932A1761730 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.h */ = {isa = PBXBuildFile; fileRef = 72D3FF6B97574F9B8C425CA5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.h */; };
+		E0E1F506FFF6491F91205B31 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp */ = {isa = PBXBuildFile; fileRef = 49C1F47B2F0B400D9DBEE7D3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp */; };
+		E0E3208001EA4E92A63A066F /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.cpp */ = {isa = PBXBuildFile; fileRef = D9B24A1EEB984080A98BBD53 /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.cpp */; };
+		E20AA122877E4E56B3E17DD8 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollidePolygon.cpp */ = {isa = PBXBuildFile; fileRef = 86F4FF6D6A2A4404BD688597 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollidePolygon.cpp */; };
+		E4F484FE3CCF4697AE21D964 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.h */ = {isa = PBXBuildFile; fileRef = 5C7946F81A8D4F26AA38EF6A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.h */; };
+		E832ACB090D84358ADD8FD58 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.h */ = {isa = PBXBuildFile; fileRef = B8443036D91C4D94A748515F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.h */; };
+		E8E42357BBB242779204CEA4 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.h */ = {isa = PBXBuildFile; fileRef = 1966B3A7FFF540DAAE2A04F3 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.h */; };
+		E8EE573723C943A8B616D4EE /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.h */ = {isa = PBXBuildFile; fileRef = 79936AE57887490B89A4230E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.h */; };
+		EBF1FAEF3BE2454285FA1FD2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.h */ = {isa = PBXBuildFile; fileRef = 0919DA94218948CD970E2967 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.h */; };
+		EDB7499A13474E6D8C8C6F03 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.h */ = {isa = PBXBuildFile; fileRef = 6BBB9568B4DD457AB4D3BD16 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.h */; };
+		F0A760794A9B4E9899F3D1F0 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.h */ = {isa = PBXBuildFile; fileRef = F424E46736CB4B66927C5C20 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.h */; };
+		F1E02DB44A664DF38C2D66CE /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h */ = {isa = PBXBuildFile; fileRef = 4F29AD32C5124EBF89FC577F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h */; };
+		F98F1B47B7704C26AB129924 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.cpp */ = {isa = PBXBuildFile; fileRef = 30E878D1AD0A4BAA8B066CA9 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.cpp */; };
+		FE058BB72CD3435E87C1AD21 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.h */ = {isa = PBXBuildFile; fileRef = 7853561653184045B8DDE962 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		078ABEAA3BC74310A590A91B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6121F0C3D85C4A7B89C25C0D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6AF79B47C97541809E38DC17 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		80C5F6ECCC634E89B04CD7DF /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		767F19CEAFAD4CAEAA43BF6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43785F27B104B48A57F78EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C2A3A62D8F4DCA9A6A2686;
+			remoteInfo = ALL_BUILD;
+		};
+		887E69330E48440F8FDF2FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43785F27B104B48A57F78EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+		A6EB4DB632F44FB0838F9178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43785F27B104B48A57F78EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C12843F88EB42A2B7B096EA;
+			remoteInfo = Box2D;
+		};
+		D96409529F2E4B4A949C56D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43785F27B104B48A57F78EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017B2A693F324465A51BB41E /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2DynamicTree.cpp; path = Collision/b2DynamicTree.cpp; sourceTree = SOURCE_ROOT; };
+		069E70CBA4EB4D35A4FB6B92 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ChainAndPolygonContact.h; path = Dynamics/Contacts/b2ChainAndPolygonContact.h; sourceTree = SOURCE_ROOT; };
+		0919DA94218948CD970E2967 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2WorldCallbacks.h; path = Dynamics/b2WorldCallbacks.h; sourceTree = SOURCE_ROOT; };
+		0950F0EFAC96470DA5B65F82 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2World.cpp; path = Dynamics/b2World.cpp; sourceTree = SOURCE_ROOT; };
+		09F4A556798E4F0EA99581C2 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Timer.h; path = Common/b2Timer.h; sourceTree = SOURCE_ROOT; };
+		10985729F3474E9C8952A5D5 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Timer.cpp; path = Common/b2Timer.cpp; sourceTree = SOURCE_ROOT; };
+		15141061AFA946D392143F37 /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2BlockAllocator.h; path = Common/b2BlockAllocator.h; sourceTree = SOURCE_ROOT; };
+		1966B3A7FFF540DAAE2A04F3 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ChainShape.h; path = Collision/Shapes/b2ChainShape.h; sourceTree = SOURCE_ROOT; };
+		1A9BD7708E4440B499F70F73 /* /Users/wusunquan/Documents/box/Box2D/Common/b2GrowableStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2GrowableStack.h; path = Common/b2GrowableStack.h; sourceTree = SOURCE_ROOT; };
+		1B3180BD6AE747CB9BC6F29F /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PolygonShape.cpp; path = Collision/Shapes/b2PolygonShape.cpp; sourceTree = SOURCE_ROOT; };
+		1B6256D5704B4A25BB44EB27 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2EdgeAndPolygonContact.cpp; path = Dynamics/Contacts/b2EdgeAndPolygonContact.cpp; sourceTree = SOURCE_ROOT; };
+		23195C2444C4436C8B47758D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2EdgeAndPolygonContact.h; path = Dynamics/Contacts/b2EdgeAndPolygonContact.h; sourceTree = SOURCE_ROOT; };
+		2BF8F3FF8AF741B1B8B18BB8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Body.h; path = Dynamics/b2Body.h; sourceTree = SOURCE_ROOT; };
+		2EA7C6FF05134863AC41217B /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2EdgeShape.cpp; path = Collision/Shapes/b2EdgeShape.cpp; sourceTree = SOURCE_ROOT; };
+		30E878D1AD0A4BAA8B066CA9 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ChainShape.cpp; path = Collision/Shapes/b2ChainShape.cpp; sourceTree = SOURCE_ROOT; };
+		32AC765E313B46939F897E62 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2FrictionJoint.cpp; path = Dynamics/Joints/b2FrictionJoint.cpp; sourceTree = SOURCE_ROOT; };
+		334A8D02668A4A5AABE4CFE8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PrismaticJoint.cpp; path = Dynamics/Joints/b2PrismaticJoint.cpp; sourceTree = SOURCE_ROOT; };
+		34553EAD87AC452FB02632B3 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Math.h; path = Common/b2Math.h; sourceTree = SOURCE_ROOT; };
+		35EA533D8C314F23B450A81B /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PolygonContact.cpp; path = Dynamics/Contacts/b2PolygonContact.cpp; sourceTree = SOURCE_ROOT; };
+		3635A4C5A3A9416F8ABC15C2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2WorldCallbacks.cpp; path = Dynamics/b2WorldCallbacks.cpp; sourceTree = SOURCE_ROOT; };
+		38F607A3178A4CDA96AEF191 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2CircleShape.h; path = Collision/Shapes/b2CircleShape.h; sourceTree = SOURCE_ROOT; };
+		3931A3F72DAF401D8618F89F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2TimeOfImpact.h; path = Collision/b2TimeOfImpact.h; sourceTree = SOURCE_ROOT; };
+		40C4E7EA52E04DE68D66B162 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2WeldJoint.h; path = Dynamics/Joints/b2WeldJoint.h; sourceTree = SOURCE_ROOT; };
+		42924D63BCB24E469C5D5811 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ChainAndCircleContact.h; path = Dynamics/Contacts/b2ChainAndCircleContact.h; sourceTree = SOURCE_ROOT; };
+		42F30A9684AD4CFE90E72B87 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Distance.h; path = Collision/b2Distance.h; sourceTree = SOURCE_ROOT; };
+		43812EFA356D40E489E8BA5A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PulleyJoint.cpp; path = Dynamics/Joints/b2PulleyJoint.cpp; sourceTree = SOURCE_ROOT; };
+		448AEA7DF80A48BB87FC1824 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Joint.cpp; path = Dynamics/Joints/b2Joint.cpp; sourceTree = SOURCE_ROOT; };
+		4528A6DB5EB240FCBA59ED42 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2DynamicTree.h; path = Collision/b2DynamicTree.h; sourceTree = SOURCE_ROOT; };
+		49C1F47B2F0B400D9DBEE7D3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ChainAndCircleContact.cpp; path = Dynamics/Contacts/b2ChainAndCircleContact.cpp; sourceTree = SOURCE_ROOT; };
+		4D3549D3AA304C0DB1AE38CD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PrismaticJoint.h; path = Dynamics/Joints/b2PrismaticJoint.h; sourceTree = SOURCE_ROOT; };
+		4EA106B720E54870A7D403A6 /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4F29AD32C5124EBF89FC577F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2EdgeAndCircleContact.h; path = Dynamics/Contacts/b2EdgeAndCircleContact.h; sourceTree = SOURCE_ROOT; };
+		4F6A2EFAE6A74AC68454DF32 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ContactManager.cpp; path = Dynamics/b2ContactManager.cpp; sourceTree = SOURCE_ROOT; };
+		52A8405C687C490CBAE26B52 /* Box2D */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBox2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E89CAC96F04BAFA5146A12 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Contact.h; path = Dynamics/Contacts/b2Contact.h; sourceTree = SOURCE_ROOT; };
+		55749A2FBF174CCF9D17D413 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideEdge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CollideEdge.cpp; path = Collision/b2CollideEdge.cpp; sourceTree = SOURCE_ROOT; };
+		5ACFEBF7C83A4DACA718E98A /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2StackAllocator.cpp; path = Common/b2StackAllocator.cpp; sourceTree = SOURCE_ROOT; };
+		5B2F4B0835A3481C8252961D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2WheelJoint.cpp; path = Dynamics/Joints/b2WheelJoint.cpp; sourceTree = SOURCE_ROOT; };
+		5C7946F81A8D4F26AA38EF6A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2CircleContact.h; path = Dynamics/Contacts/b2CircleContact.h; sourceTree = SOURCE_ROOT; };
+		5DE2A1344D224398A1FAC1E9 /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2StackAllocator.h; path = Common/b2StackAllocator.h; sourceTree = SOURCE_ROOT; };
+		60DFEEB55C9E4E2E954043B3 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2BroadPhase.cpp; path = Collision/b2BroadPhase.cpp; sourceTree = SOURCE_ROOT; };
+		630D5919BFA144949BC4504F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2DistanceJoint.h; path = Dynamics/Joints/b2DistanceJoint.h; sourceTree = SOURCE_ROOT; };
+		645DE0411B204497834F96FB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Island.cpp; path = Dynamics/b2Island.cpp; sourceTree = SOURCE_ROOT; };
+		676D16C5459A4091B27E9F3D /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Collision.h; path = Collision/b2Collision.h; sourceTree = SOURCE_ROOT; };
+		67E5155F74464CC5926B8C9B /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Draw.cpp; path = Common/b2Draw.cpp; sourceTree = SOURCE_ROOT; };
+		68C9778680524471AA740E59 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2TimeStep.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2TimeStep.h; path = Dynamics/b2TimeStep.h; sourceTree = SOURCE_ROOT; };
+		6B6689407CD04CD7922FFC1C /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PolygonShape.h; path = Collision/Shapes/b2PolygonShape.h; sourceTree = SOURCE_ROOT; };
+		6BBB9568B4DD457AB4D3BD16 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ContactManager.h; path = Dynamics/b2ContactManager.h; sourceTree = SOURCE_ROOT; };
+		6D751335C85E4AC0A1367D3E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ChainAndPolygonContact.cpp; path = Dynamics/Contacts/b2ChainAndPolygonContact.cpp; sourceTree = SOURCE_ROOT; };
+		72D3FF6B97574F9B8C425CA5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PulleyJoint.h; path = Dynamics/Joints/b2PulleyJoint.h; sourceTree = SOURCE_ROOT; };
+		777DBECB5AE841A09025789F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2EdgeAndCircleContact.cpp; path = Dynamics/Contacts/b2EdgeAndCircleContact.cpp; sourceTree = SOURCE_ROOT; };
+		779228F6B4094264926521C5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Fixture.cpp; path = Dynamics/b2Fixture.cpp; sourceTree = SOURCE_ROOT; };
+		7853561653184045B8DDE962 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Settings.h; path = Common/b2Settings.h; sourceTree = SOURCE_ROOT; };
+		79936AE57887490B89A4230E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Island.h; path = Dynamics/b2Island.h; sourceTree = SOURCE_ROOT; };
+		7C393875DA8D4DFBA18DEE75 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Rope.h; path = Rope/b2Rope.h; sourceTree = SOURCE_ROOT; };
+		82617F64122B45E2960F19DA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2MouseJoint.h; path = Dynamics/Joints/b2MouseJoint.h; sourceTree = SOURCE_ROOT; };
+		8629D6FEC0B349A5A94BD018 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2Shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Shape.h; path = Collision/Shapes/b2Shape.h; sourceTree = SOURCE_ROOT; };
+		86F4FF6D6A2A4404BD688597 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollidePolygon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CollidePolygon.cpp; path = Collision/b2CollidePolygon.cpp; sourceTree = SOURCE_ROOT; };
+		8F6F7B256FDD43ECA8FF8825 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Draw.h; path = Common/b2Draw.h; sourceTree = SOURCE_ROOT; };
+		8FCAC9703EC54638B782B87C /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Collision.cpp; path = Collision/b2Collision.cpp; sourceTree = SOURCE_ROOT; };
+		8FDE15786EB447F399A76513 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Distance.cpp; path = Collision/b2Distance.cpp; sourceTree = SOURCE_ROOT; };
+		95CF1E70CBAD4DD8AD8D9070 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2MotorJoint.h; path = Dynamics/Joints/b2MotorJoint.h; sourceTree = SOURCE_ROOT; };
+		9643B3D14EF94D089C4EA8B2 /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9732F7281670470187231CE1 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2WeldJoint.cpp; path = Dynamics/Joints/b2WeldJoint.cpp; sourceTree = SOURCE_ROOT; };
+		A39ACE6500584129BB4BB5D2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CircleContact.cpp; path = Dynamics/Contacts/b2CircleContact.cpp; sourceTree = SOURCE_ROOT; };
+		A6A4736E5C0B4AA0ABF2A056 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PolygonAndCircleContact.h; path = Dynamics/Contacts/b2PolygonAndCircleContact.h; sourceTree = SOURCE_ROOT; };
+		A92F07275F6F4BEB97D453B3 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2EdgeShape.h; path = Collision/Shapes/b2EdgeShape.h; sourceTree = SOURCE_ROOT; };
+		AD7618AD2C5F494C9896968E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2RevoluteJoint.cpp; path = Dynamics/Joints/b2RevoluteJoint.cpp; sourceTree = SOURCE_ROOT; };
+		B17CB1DCCFA1407FB2F01EBE /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Joint.h; path = Dynamics/Joints/b2Joint.h; sourceTree = SOURCE_ROOT; };
+		B1B7F6FD5E0B4546A6AF5B89 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2WheelJoint.h; path = Dynamics/Joints/b2WheelJoint.h; sourceTree = SOURCE_ROOT; };
+		B273B5C9A942437B8101D977 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2MotorJoint.cpp; path = Dynamics/Joints/b2MotorJoint.cpp; sourceTree = SOURCE_ROOT; };
+		B8443036D91C4D94A748515F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2BroadPhase.h; path = Collision/b2BroadPhase.h; sourceTree = SOURCE_ROOT; };
+		B9F3F2D88FE546D9871974BA /* /Users/wusunquan/Documents/box/Box2D/Box2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Box2D.h; path = Box2D.h; sourceTree = SOURCE_ROOT; };
+		BD17BDAC99D94067B8EB87F8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2Fixture.h; path = Dynamics/b2Fixture.h; sourceTree = SOURCE_ROOT; };
+		BDB4AB06F6F8434C90742952 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2MouseJoint.cpp; path = Dynamics/Joints/b2MouseJoint.cpp; sourceTree = SOURCE_ROOT; };
+		C0B5D6D3D99E4EF586E06DAE /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Settings.cpp; path = Common/b2Settings.cpp; sourceTree = SOURCE_ROOT; };
+		C1E57E4F2CBB4ADA9720D476 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2DistanceJoint.cpp; path = Dynamics/Joints/b2DistanceJoint.cpp; sourceTree = SOURCE_ROOT; };
+		C366CDD2A3934EEBA6A0B05C /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Math.cpp; path = Common/b2Math.cpp; sourceTree = SOURCE_ROOT; };
+		C646D70EAFBF4B2CB77428AF /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2PolygonAndCircleContact.cpp; path = Dynamics/Contacts/b2PolygonAndCircleContact.cpp; sourceTree = SOURCE_ROOT; };
+		C679B5DCE1D345858691CFBB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2RevoluteJoint.h; path = Dynamics/Joints/b2RevoluteJoint.h; sourceTree = SOURCE_ROOT; };
+		C842922A0EBC44D7BD7330FE /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CircleShape.cpp; path = Collision/Shapes/b2CircleShape.cpp; sourceTree = SOURCE_ROOT; };
+		C8DA20D1CDB54293A5076D4F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideCircle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2CollideCircle.cpp; path = Collision/b2CollideCircle.cpp; sourceTree = SOURCE_ROOT; };
+		CC7746252C3D47B6A96EB36C /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2ContactSolver.cpp; path = Dynamics/Contacts/b2ContactSolver.cpp; sourceTree = SOURCE_ROOT; };
+		CEFDE74E659744449EB587AA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Contact.cpp; path = Dynamics/Contacts/b2Contact.cpp; sourceTree = SOURCE_ROOT; };
+		CFAB25B834784FFA855BB431 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2TimeOfImpact.cpp; path = Collision/b2TimeOfImpact.cpp; sourceTree = SOURCE_ROOT; };
+		D49F21BD9C26402FA39161A3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2World.h; path = Dynamics/b2World.h; sourceTree = SOURCE_ROOT; };
+		D9B24A1EEB984080A98BBD53 /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2BlockAllocator.cpp; path = Common/b2BlockAllocator.cpp; sourceTree = SOURCE_ROOT; };
+		D9C11C511A0E483F8AA60AAA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Body.cpp; path = Dynamics/b2Body.cpp; sourceTree = SOURCE_ROOT; };
+		D9D54E41131C490AACCAE267 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2Rope.cpp; path = Rope/b2Rope.cpp; sourceTree = SOURCE_ROOT; };
+		DEDA0D2178C246C69851E630 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2RopeJoint.cpp; path = Dynamics/Joints/b2RopeJoint.cpp; sourceTree = SOURCE_ROOT; };
+		E2659227EF7D467A8AFF21E3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2FrictionJoint.h; path = Dynamics/Joints/b2FrictionJoint.h; sourceTree = SOURCE_ROOT; };
+		E6070E8E0CCE4545BC91E94F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2GearJoint.h; path = Dynamics/Joints/b2GearJoint.h; sourceTree = SOURCE_ROOT; };
+		F3D2EAE74F954AF6A491E2F5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2RopeJoint.h; path = Dynamics/Joints/b2RopeJoint.h; sourceTree = SOURCE_ROOT; };
+		F424E46736CB4B66927C5C20 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2PolygonContact.h; path = Dynamics/Contacts/b2PolygonContact.h; sourceTree = SOURCE_ROOT; };
+		F54203000ECD44429687B45C /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = b2GearJoint.cpp; path = Dynamics/Joints/b2GearJoint.cpp; sourceTree = SOURCE_ROOT; };
+		F9024B28BF1A4D0EB6067639 /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FC2FBC816A5D493DB64F42DD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b2ContactSolver.h; path = Dynamics/Contacts/b2ContactSolver.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		276F3F2AF81440D9B9572E3C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E878D1AD0A4BAA8B066CA9 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.cpp */,
+				C842922A0EBC44D7BD7330FE /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.cpp */,
+				2EA7C6FF05134863AC41217B /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.cpp */,
+				1B3180BD6AE747CB9BC6F29F /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.cpp */,
+				60DFEEB55C9E4E2E954043B3 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.cpp */,
+				C8DA20D1CDB54293A5076D4F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideCircle.cpp */,
+				55749A2FBF174CCF9D17D413 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideEdge.cpp */,
+				86F4FF6D6A2A4404BD688597 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollidePolygon.cpp */,
+				8FCAC9703EC54638B782B87C /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.cpp */,
+				8FDE15786EB447F399A76513 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.cpp */,
+				017B2A693F324465A51BB41E /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.cpp */,
+				CFAB25B834784FFA855BB431 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.cpp */,
+				D9B24A1EEB984080A98BBD53 /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.cpp */,
+				67E5155F74464CC5926B8C9B /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.cpp */,
+				C366CDD2A3934EEBA6A0B05C /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.cpp */,
+				C0B5D6D3D99E4EF586E06DAE /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.cpp */,
+				5ACFEBF7C83A4DACA718E98A /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.cpp */,
+				10985729F3474E9C8952A5D5 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.cpp */,
+				49C1F47B2F0B400D9DBEE7D3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp */,
+				6D751335C85E4AC0A1367D3E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp */,
+				A39ACE6500584129BB4BB5D2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.cpp */,
+				CEFDE74E659744449EB587AA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.cpp */,
+				CC7746252C3D47B6A96EB36C /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.cpp */,
+				777DBECB5AE841A09025789F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp */,
+				1B6256D5704B4A25BB44EB27 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp */,
+				C646D70EAFBF4B2CB77428AF /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp */,
+				35EA533D8C314F23B450A81B /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.cpp */,
+				C1E57E4F2CBB4ADA9720D476 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.cpp */,
+				32AC765E313B46939F897E62 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.cpp */,
+				F54203000ECD44429687B45C /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.cpp */,
+				448AEA7DF80A48BB87FC1824 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.cpp */,
+				B273B5C9A942437B8101D977 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.cpp */,
+				BDB4AB06F6F8434C90742952 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.cpp */,
+				334A8D02668A4A5AABE4CFE8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp */,
+				43812EFA356D40E489E8BA5A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.cpp */,
+				AD7618AD2C5F494C9896968E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp */,
+				DEDA0D2178C246C69851E630 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.cpp */,
+				9732F7281670470187231CE1 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.cpp */,
+				5B2F4B0835A3481C8252961D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.cpp */,
+				D9C11C511A0E483F8AA60AAA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.cpp */,
+				4F6A2EFAE6A74AC68454DF32 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.cpp */,
+				779228F6B4094264926521C5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.cpp */,
+				645DE0411B204497834F96FB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.cpp */,
+				0950F0EFAC96470DA5B65F82 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.cpp */,
+				3635A4C5A3A9416F8ABC15C2 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.cpp */,
+				D9D54E41131C490AACCAE267 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		308D7652B5784B26BDA13562 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0299014DB4F1DA6A9EE96 /* CMake Rules */,
+				9643B3D14EF94D089C4EA8B2 /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4889A5062499431190166082 /* Box2D */ = {
+			isa = PBXGroup;
+			children = (
+				FFA6ADC01F1E4B97892AF03B /* Header Files */,
+				276F3F2AF81440D9B9572E3C /* Source Files */,
+				F9024B28BF1A4D0EB6067639 /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */,
+			);
+			name = Box2D;
+			sourceTree = "<group>";
+		};
+		7A125F33E8544A3B9F3DEEC3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		982EF56188C147D58366535A = {
+			isa = PBXGroup;
+			children = (
+				4889A5062499431190166082 /* Box2D */,
+				308D7652B5784B26BDA13562 /* ALL_BUILD */,
+				E8588C08C6F74498850C9A08 /* ZERO_CHECK */,
+				EF315FCD13134F8A9F5DA04C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8588C08C6F74498850C9A08 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7A125F33E8544A3B9F3DEEC3 /* CMake Rules */,
+				4EA106B720E54870A7D403A6 /* /Users/wusunquan/Documents/box/Box2D/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		EF315FCD13134F8A9F5DA04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A8405C687C490CBAE26B52 /* Box2D */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F0299014DB4F1DA6A9EE96 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FFA6ADC01F1E4B97892AF03B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9F3F2D88FE546D9871974BA /* /Users/wusunquan/Documents/box/Box2D/Box2D.h */,
+				1966B3A7FFF540DAAE2A04F3 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.h */,
+				38F607A3178A4CDA96AEF191 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.h */,
+				A92F07275F6F4BEB97D453B3 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.h */,
+				6B6689407CD04CD7922FFC1C /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.h */,
+				8629D6FEC0B349A5A94BD018 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2Shape.h */,
+				B8443036D91C4D94A748515F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.h */,
+				676D16C5459A4091B27E9F3D /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.h */,
+				42F30A9684AD4CFE90E72B87 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.h */,
+				4528A6DB5EB240FCBA59ED42 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.h */,
+				3931A3F72DAF401D8618F89F /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.h */,
+				15141061AFA946D392143F37 /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.h */,
+				8F6F7B256FDD43ECA8FF8825 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.h */,
+				1A9BD7708E4440B499F70F73 /* /Users/wusunquan/Documents/box/Box2D/Common/b2GrowableStack.h */,
+				34553EAD87AC452FB02632B3 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.h */,
+				7853561653184045B8DDE962 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.h */,
+				5DE2A1344D224398A1FAC1E9 /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.h */,
+				09F4A556798E4F0EA99581C2 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.h */,
+				42924D63BCB24E469C5D5811 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h */,
+				069E70CBA4EB4D35A4FB6B92 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h */,
+				5C7946F81A8D4F26AA38EF6A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.h */,
+				54E89CAC96F04BAFA5146A12 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.h */,
+				FC2FBC816A5D493DB64F42DD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.h */,
+				4F29AD32C5124EBF89FC577F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h */,
+				23195C2444C4436C8B47758D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h */,
+				A6A4736E5C0B4AA0ABF2A056 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h */,
+				F424E46736CB4B66927C5C20 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.h */,
+				630D5919BFA144949BC4504F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.h */,
+				E2659227EF7D467A8AFF21E3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.h */,
+				E6070E8E0CCE4545BC91E94F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.h */,
+				B17CB1DCCFA1407FB2F01EBE /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.h */,
+				95CF1E70CBAD4DD8AD8D9070 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.h */,
+				82617F64122B45E2960F19DA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.h */,
+				4D3549D3AA304C0DB1AE38CD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.h */,
+				72D3FF6B97574F9B8C425CA5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.h */,
+				C679B5DCE1D345858691CFBB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.h */,
+				F3D2EAE74F954AF6A491E2F5 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.h */,
+				40C4E7EA52E04DE68D66B162 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.h */,
+				B1B7F6FD5E0B4546A6AF5B89 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.h */,
+				2BF8F3FF8AF741B1B8B18BB8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.h */,
+				6BBB9568B4DD457AB4D3BD16 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.h */,
+				BD17BDAC99D94067B8EB87F8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.h */,
+				79936AE57887490B89A4230E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.h */,
+				68C9778680524471AA740E59 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2TimeStep.h */,
+				D49F21BD9C26402FA39161A3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.h */,
+				0919DA94218948CD970E2967 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.h */,
+				7C393875DA8D4DFBA18DEE75 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C12843F88EB42A2B7B096EA /* Box2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87BDA1DFB0543E3A8F1E197 /* Build configuration list for PBXNativeTarget "Box2D" */;
+			buildPhases = (
+				57A7C16E19C948EFBED5530D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083D3B17F3CD4301A2BE71AB /* PBXTargetDependency */,
+			);
+			name = Box2D;
+			productName = Box2D;
+			productReference = 52A8405C687C490CBAE26B52 /* Box2D */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43785F27B104B48A57F78EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 81214B1296914571B6F4041B /* Build configuration list for PBXProject "Box2D" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6121F0C3D85C4A7B89C25C0D /* Debug */,
+				80C5F6ECCC634E89B04CD7DF /* Release */,
+				078ABEAA3BC74310A590A91B /* MinSizeRel */,
+				6AF79B47C97541809E38DC17 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 982EF56188C147D58366535A;
+			projectDirPath = ../../Box2D;
+			projectRoot = "";
+			targets = (
+				10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */,
+				3C12843F88EB42A2B7B096EA /* Box2D */,
+				8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */,
+				ED9E425F625D429999396885 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DDD1CEE862B445F981F8A3C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		837F5A96CD8C443CA9439C5A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/Box2D -f /Users/wusunquan/Documents/box/build/Box2D/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		956C61E8DFE64A57AF16B42A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A14AEF66CF6545EE8ED2EC30 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/Box2D -f /Users/wusunquan/Documents/box/build/Box2D/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C741CB31797F46E0B58FC388 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E556845EDDF640BCBE784548 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/Box2D -f /Users/wusunquan/Documents/box/build/Box2D/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A7C16E19C948EFBED5530D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98F1B47B7704C26AB129924 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2ChainShape.cpp */,
+				6C438B2538274CA4B3356A8D /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2CircleShape.cpp */,
+				680B196F427B408DB2A17775 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2EdgeShape.cpp */,
+				C830B18A4A4A4EC6BC1B44A7 /* /Users/wusunquan/Documents/box/Box2D/Collision/Shapes/b2PolygonShape.cpp */,
+				0848C88F60B9401D96A695AA /* /Users/wusunquan/Documents/box/Box2D/Collision/b2BroadPhase.cpp */,
+				07E667416DF14496AAF8E1A7 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideCircle.cpp */,
+				8BCCBC4B98AB4C3CAAA85B13 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollideEdge.cpp */,
+				E20AA122877E4E56B3E17DD8 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2CollidePolygon.cpp */,
+				6085DB4C2C39462C9CF8F7F9 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Collision.cpp */,
+				2E8BACA35CF148A5AB226953 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2Distance.cpp */,
+				BD39E264D054452C9D717D2A /* /Users/wusunquan/Documents/box/Box2D/Collision/b2DynamicTree.cpp */,
+				27F2DC8019FE4E81B4025510 /* /Users/wusunquan/Documents/box/Box2D/Collision/b2TimeOfImpact.cpp */,
+				E0E3208001EA4E92A63A066F /* /Users/wusunquan/Documents/box/Box2D/Common/b2BlockAllocator.cpp */,
+				A76510EE58BB43E69A9F40B3 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Draw.cpp */,
+				DD83C408B4D844EB8039A05D /* /Users/wusunquan/Documents/box/Box2D/Common/b2Math.cpp */,
+				49E1C833370F4D0EBABD1940 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Settings.cpp */,
+				0B775279F6AE4562A53D1ACD /* /Users/wusunquan/Documents/box/Box2D/Common/b2StackAllocator.cpp */,
+				B0C7FE5687714162941C90E7 /* /Users/wusunquan/Documents/box/Box2D/Common/b2Timer.cpp */,
+				E0E1F506FFF6491F91205B31 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp */,
+				380F4E8C80B54ED7803215EF /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp */,
+				784FA58FD063495E9418A0F8 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2CircleContact.cpp */,
+				BC4146EE53BC420E8572459D /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2Contact.cpp */,
+				7594A7C24A3940B2B75A563B /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2ContactSolver.cpp */,
+				4DB49D779F914762AA2B107B /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp */,
+				31D1AB441ED54849B461C656 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp */,
+				06C83891071B4F699C4A8C65 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp */,
+				3CB8BC2533B6473EB0C10C8F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Contacts/b2PolygonContact.cpp */,
+				61E08383B0174A74984E4FBD /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2DistanceJoint.cpp */,
+				02C0F0566EE447E2B7F47ADB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2FrictionJoint.cpp */,
+				257A775C581B44C4A27DEF8F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2GearJoint.cpp */,
+				A837A4C1CFAD46FE8EF7D355 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2Joint.cpp */,
+				DBBDC0CBDE7F4390AB58F85E /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MotorJoint.cpp */,
+				28CB4E1A446A44A2B9C13382 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2MouseJoint.cpp */,
+				0625DC4FF84A45A693B35DBB /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp */,
+				0082B37FF0164391BDC52E97 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2PulleyJoint.cpp */,
+				98A569088F044C198EF93F21 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp */,
+				91E2B3630629481A8A6F2FE4 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2RopeJoint.cpp */,
+				AE235F29B6BB474189657761 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WeldJoint.cpp */,
+				B8D9770CF4214AABA946595A /* /Users/wusunquan/Documents/box/Box2D/Dynamics/Joints/b2WheelJoint.cpp */,
+				D579532E14FE4B6083BB4A25 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Body.cpp */,
+				759A3B0426E0401CBC2E6B62 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2ContactManager.cpp */,
+				71066C02EFDB44B99632AFBA /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Fixture.cpp */,
+				680420117CC741F7A6D6094F /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2Island.cpp */,
+				2EC793AE6D3E424FA75EEA21 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2World.cpp */,
+				CF12183C06F84790A52E0AD3 /* /Users/wusunquan/Documents/box/Box2D/Dynamics/b2WorldCallbacks.cpp */,
+				8EE20BEE1C084691906DFE97 /* /Users/wusunquan/Documents/box/Box2D/Rope/b2Rope.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083D3B17F3CD4301A2BE71AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = D96409529F2E4B4A949C56D3 /* PBXContainerItemProxy */;
+		};
+		606CD960B79B46A997988AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */;
+			targetProxy = 767F19CEAFAD4CAEAA43BF6F /* PBXContainerItemProxy */;
+		};
+		A27C02272680492EB718B3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = 887E69330E48440F8FDF2FA8 /* PBXContainerItemProxy */;
+		};
+		F7EA1C8A248B4649AFA9D8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C12843F88EB42A2B7B096EA /* Box2D */;
+			targetProxy = A6EB4DB632F44FB0838F9178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0386BA301B864A33B38E9CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder    -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Box2D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		122F9566C8814F69935B59E6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Box2D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1DF8E569FA6044819CFBBF72 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3F5EFE658D674C6FBAF5D238 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		474D33BB61E14DC794752B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Box2D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5B6B41E904474E08A93BB48D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Box2D;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D2CBD4B211F4A5CB666A524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D/build;
+			};
+			name = Release;
+		};
+		5EC3D740BAF04ADF972F11A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		730464CF485840208302F67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D/build;
+			};
+			name = Debug;
+		};
+		8B42E46DD81A4A2D90380B29 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		937B8B9C4A0048DB8FD85CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9A2933F6F7424132B75FD95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9CC616C2EE674F1AB64D21C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AA9D16D8B0164BF18446FFA6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B9EFB63BDA52422AA2A2A280 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D/build;
+			};
+			name = MinSizeRel;
+		};
+		C53800A821844DDDBAE2DE84 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EBC494697586478680925A64 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F25AD6DB0EE24939A672B686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F4FFAB8BD58C47A1B4F5745F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F82046DC4DA14205B8E4720A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/Box2D;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F38E2B7F1F46BC9838B101 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937B8B9C4A0048DB8FD85CE1 /* Debug */,
+				5EC3D740BAF04ADF972F11A2 /* Release */,
+				3F5EFE658D674C6FBAF5D238 /* MinSizeRel */,
+				C53800A821844DDDBAE2DE84 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		81214B1296914571B6F4041B /* Build configuration list for PBXProject "Box2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730464CF485840208302F67D /* Debug */,
+				5D2CBD4B211F4A5CB666A524 /* Release */,
+				B9EFB63BDA52422AA2A2A280 /* MinSizeRel */,
+				EBC494697586478680925A64 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2B0840FA5624727820BAFC5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2933F6F7424132B75FD95F /* Debug */,
+				F25AD6DB0EE24939A672B686 /* Release */,
+				8B42E46DD81A4A2D90380B29 /* MinSizeRel */,
+				F82046DC4DA14205B8E4720A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC4397A867F24B3C99F9C21B /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FFAB8BD58C47A1B4F5745F /* Debug */,
+				9CC616C2EE674F1AB64D21C6 /* Release */,
+				AA9D16D8B0164BF18446FFA6 /* MinSizeRel */,
+				1DF8E569FA6044819CFBBF72 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D87BDA1DFB0543E3A8F1E197 /* Build configuration list for PBXNativeTarget "Box2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0386BA301B864A33B38E9CA6 /* Debug */,
+				474D33BB61E14DC794752B9A /* Release */,
+				5B6B41E904474E08A93BB48D /* MinSizeRel */,
+				122F9566C8814F69935B59E6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43785F27B104B48A57F78EF /* Project object */;
+}

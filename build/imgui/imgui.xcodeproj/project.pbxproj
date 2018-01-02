@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5BFAB2148C7B483A9F9B751D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CBC3A2E86FCF4B30B35058B1 /* CMake Rules */,
+			);
+			dependencies = (
+				4DC99E3D503B47E09F00715A /* PBXTargetDependency */,
+				BBC1F3E7A6504E14A20EF32F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D94A6EF7D12F4016BF6E479C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CADCBA616C9E49E582F78386 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		ED9E425F625D429999396885 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA5FA10FD2C546579DA6968D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				D8D726F4EDC5454D8EF6A448 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				C746255ED9AA4EECA94DF450 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F4DF5AA30D547508A4CBA91 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.h */ = {isa = PBXBuildFile; fileRef = 064736F5129E417EA9E9E137 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.h */; };
+		1F3FF3A6403540FBB4DCD41E /* /Users/wusunquan/Documents/box/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = 4E2B867A47A24C0DBD4078E9 /* /Users/wusunquan/Documents/box/imgui/imgui.cpp */; };
+		213DAE4DD15846FCA25461A3 /* /Users/wusunquan/Documents/box/imgui/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 75747157DA8242BEA443170F /* /Users/wusunquan/Documents/box/imgui/imgui_draw.cpp */; };
+		21E2215009B845D7B32BEE8C /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 576BAD1ECAC84D8CACB4B3B5 /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */; };
+		50D1960535B147AD9181D01D /* /Users/wusunquan/Documents/box/imgui/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 953A1131B2A34E45AD12CEF1 /* /Users/wusunquan/Documents/box/imgui/imgui_demo.cpp */; };
+		539ED05CECEA4DF985575736 /* /Users/wusunquan/Documents/box/imgui/stb_rect_pack.h */ = {isa = PBXBuildFile; fileRef = 534513237D1E40B8B6FECE9D /* /Users/wusunquan/Documents/box/imgui/stb_rect_pack.h */; };
+		78E7CB70B2BA4427B83A321E /* /Users/wusunquan/Documents/box/imgui/imgui.h */ = {isa = PBXBuildFile; fileRef = 7312AC9624214AC0826BB370 /* /Users/wusunquan/Documents/box/imgui/imgui.h */; };
+		8A721CE6B8F64333ACEAD69A /* /Users/wusunquan/Documents/box/imgui/stb_truetype.h */ = {isa = PBXBuildFile; fileRef = DC47BFEBBB1D47BB95908031 /* /Users/wusunquan/Documents/box/imgui/stb_truetype.h */; };
+		9C6C00056A5C49D4B84B93F4 /* /Users/wusunquan/Documents/box/imgui/imconfig.h */ = {isa = PBXBuildFile; fileRef = 78997DBE2955417781A05651 /* /Users/wusunquan/Documents/box/imgui/imconfig.h */; };
+		D00F3787D21F4C1CA8251B99 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.cpp */ = {isa = PBXBuildFile; fileRef = 08A3F1055FE248CC9C033C08 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.cpp */; };
+		F0A68D1F5E6C45B589CDC030 /* /Users/wusunquan/Documents/box/imgui/stb_textedit.h */ = {isa = PBXBuildFile; fileRef = 121BF6AE048441FA84D2983F /* /Users/wusunquan/Documents/box/imgui/stb_textedit.h */; };
+		F87560893E4245CCA2404138 /* /Users/wusunquan/Documents/box/imgui/imgui_internal.h */ = {isa = PBXBuildFile; fileRef = E38E3201323E431481FE0728 /* /Users/wusunquan/Documents/box/imgui/imgui_internal.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		12EBFBEB9814477B8AE2903B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BEAFFCDD2F3A49A1B98350A4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D8317A4E429F47008B4278AD /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E738C3DC75244F1499095E94 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		23429CE316D4401E82A6D076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B572F2F7DB0C497180D97BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C2A3A62D8F4DCA9A6A2686;
+			remoteInfo = ALL_BUILD;
+		};
+		B63A5F9230054E5C8180C39E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B572F2F7DB0C497180D97BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F727094EDB0046A5A14C93CF;
+			remoteInfo = imgui;
+		};
+		CF98FB7ED97B467E8E05B72A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B572F2F7DB0C497180D97BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+		E305132D65C040A9BCA0F70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B572F2F7DB0C497180D97BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064736F5129E417EA9E9E137 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_glfw_gl3.h; path = imgui_impl_glfw_gl3.h; sourceTree = SOURCE_ROOT; };
+		08A3F1055FE248CC9C033C08 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_glfw_gl3.cpp; path = imgui_impl_glfw_gl3.cpp; sourceTree = SOURCE_ROOT; };
+		121BF6AE048441FA84D2983F /* /Users/wusunquan/Documents/box/imgui/stb_textedit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_textedit.h; path = stb_textedit.h; sourceTree = SOURCE_ROOT; };
+		4499F802F66E4AD0898732CD /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E2B867A47A24C0DBD4078E9 /* /Users/wusunquan/Documents/box/imgui/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = imgui.cpp; sourceTree = SOURCE_ROOT; };
+		534513237D1E40B8B6FECE9D /* /Users/wusunquan/Documents/box/imgui/stb_rect_pack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_rect_pack.h; path = stb_rect_pack.h; sourceTree = SOURCE_ROOT; };
+		576BAD1ECAC84D8CACB4B3B5 /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6DC6261B2F924B91BD6E107D /* imgui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libimgui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7312AC9624214AC0826BB370 /* /Users/wusunquan/Documents/box/imgui/imgui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui.h; path = imgui.h; sourceTree = SOURCE_ROOT; };
+		75747157DA8242BEA443170F /* /Users/wusunquan/Documents/box/imgui/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		78997DBE2955417781A05651 /* /Users/wusunquan/Documents/box/imgui/imconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imconfig.h; path = imconfig.h; sourceTree = SOURCE_ROOT; };
+		953A1131B2A34E45AD12CEF1 /* /Users/wusunquan/Documents/box/imgui/imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = imgui_demo.cpp; sourceTree = SOURCE_ROOT; };
+		D412F58AE429403DAAE116D8 /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DC47BFEBBB1D47BB95908031 /* /Users/wusunquan/Documents/box/imgui/stb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_truetype.h; path = stb_truetype.h; sourceTree = SOURCE_ROOT; };
+		E38E3201323E431481FE0728 /* /Users/wusunquan/Documents/box/imgui/imgui_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_internal.h; path = imgui_internal.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3CD7F1F75ACA40B8B0D83395 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7AFADFBB6C7B4F56A56A694B /* CMake Rules */,
+				D412F58AE429403DAAE116D8 /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		45630114DD2B49DEACF3AD8B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EF87307B3870445FA6FD6EA1 /* CMake Rules */,
+				4499F802F66E4AD0898732CD /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		45949909AB194730BCAC708B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC6261B2F924B91BD6E107D /* imgui */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		747D689B293C4A699CC0192C /* IMGUI */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A20AE0D9944A8A1E0978D /* imgui */,
+			);
+			name = IMGUI;
+			sourceTree = "<group>";
+		};
+		78E08E7EB1CF4F1DAFED02DC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E2B867A47A24C0DBD4078E9 /* /Users/wusunquan/Documents/box/imgui/imgui.cpp */,
+				953A1131B2A34E45AD12CEF1 /* /Users/wusunquan/Documents/box/imgui/imgui_demo.cpp */,
+				75747157DA8242BEA443170F /* /Users/wusunquan/Documents/box/imgui/imgui_draw.cpp */,
+				08A3F1055FE248CC9C033C08 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7908309245B841C4A2BE15C0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				78997DBE2955417781A05651 /* /Users/wusunquan/Documents/box/imgui/imconfig.h */,
+				7312AC9624214AC0826BB370 /* /Users/wusunquan/Documents/box/imgui/imgui.h */,
+				064736F5129E417EA9E9E137 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.h */,
+				E38E3201323E431481FE0728 /* /Users/wusunquan/Documents/box/imgui/imgui_internal.h */,
+				534513237D1E40B8B6FECE9D /* /Users/wusunquan/Documents/box/imgui/stb_rect_pack.h */,
+				121BF6AE048441FA84D2983F /* /Users/wusunquan/Documents/box/imgui/stb_textedit.h */,
+				DC47BFEBBB1D47BB95908031 /* /Users/wusunquan/Documents/box/imgui/stb_truetype.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7AFADFBB6C7B4F56A56A694B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7B2C01880E1645D1BF1E8D80 = {
+			isa = PBXGroup;
+			children = (
+				747D689B293C4A699CC0192C /* IMGUI */,
+				45630114DD2B49DEACF3AD8B /* ALL_BUILD */,
+				3CD7F1F75ACA40B8B0D83395 /* ZERO_CHECK */,
+				45949909AB194730BCAC708B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1A20AE0D9944A8A1E0978D /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				7908309245B841C4A2BE15C0 /* Header Files */,
+				78E08E7EB1CF4F1DAFED02DC /* Source Files */,
+				576BAD1ECAC84D8CACB4B3B5 /* /Users/wusunquan/Documents/box/imgui/CMakeLists.txt */,
+			);
+			name = imgui;
+			sourceTree = "<group>";
+		};
+		EF87307B3870445FA6FD6EA1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F727094EDB0046A5A14C93CF /* imgui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FCFB8F94F841C08CEF7341 /* Build configuration list for PBXNativeTarget "imgui" */;
+			buildPhases = (
+				2C3880D1BE674B6F9524F949 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F4518730D884E45B65D43B1 /* PBXTargetDependency */,
+			);
+			name = imgui;
+			productName = imgui;
+			productReference = 6DC6261B2F924B91BD6E107D /* imgui */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B572F2F7DB0C497180D97BE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = EFD3A94827C3453798279F02 /* Build configuration list for PBXProject "imgui" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				12EBFBEB9814477B8AE2903B /* Debug */,
+				E738C3DC75244F1499095E94 /* Release */,
+				BEAFFCDD2F3A49A1B98350A4 /* MinSizeRel */,
+				D8317A4E429F47008B4278AD /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7B2C01880E1645D1BF1E8D80;
+			projectDirPath = ../../imgui;
+			projectRoot = "";
+			targets = (
+				10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */,
+				8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */,
+				F727094EDB0046A5A14C93CF /* imgui */,
+				ED9E425F625D429999396885 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD03261AD674C5E803ADD05 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5446025E41AC427F895EC8C6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A8353E3BA49D4D72AEF86696 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CADCBA616C9E49E582F78386 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/imgui -f /Users/wusunquan/Documents/box/build/imgui/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CBC3A2E86FCF4B30B35058B1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/imgui -f /Users/wusunquan/Documents/box/build/imgui/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D8D726F4EDC5454D8EF6A448 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/imgui -f /Users/wusunquan/Documents/box/build/imgui/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3880D1BE674B6F9524F949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3FF3A6403540FBB4DCD41E /* /Users/wusunquan/Documents/box/imgui/imgui.cpp */,
+				50D1960535B147AD9181D01D /* /Users/wusunquan/Documents/box/imgui/imgui_demo.cpp */,
+				213DAE4DD15846FCA25461A3 /* /Users/wusunquan/Documents/box/imgui/imgui_draw.cpp */,
+				D00F3787D21F4C1CA8251B99 /* /Users/wusunquan/Documents/box/imgui/imgui_impl_glfw_gl3.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F4518730D884E45B65D43B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = E305132D65C040A9BCA0F70E /* PBXContainerItemProxy */;
+		};
+		4DC99E3D503B47E09F00715A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F727094EDB0046A5A14C93CF /* imgui */;
+			targetProxy = B63A5F9230054E5C8180C39E /* PBXContainerItemProxy */;
+		};
+		BBC1F3E7A6504E14A20EF32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = CF98FB7ED97B467E8E05B72A /* PBXContainerItemProxy */;
+		};
+		C746255ED9AA4EECA94DF450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */;
+			targetProxy = 23429CE316D4401E82A6D076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14D066F1D3A7432C9675DA31 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		25A1C3F361E24875BE98C4AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		38E2DCCDEB3647A2BA73528C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder    -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		38F07C260A494801821263F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		52A66225D6F2412C918C5801 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui/build;
+			};
+			name = MinSizeRel;
+		};
+		54DCF4734FAE47979A0D207F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5928917CFA0F4910A9B8125E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6009ACAEF4254DB090D591CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		64130E3AD79C4A3F82BA5FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui/build;
+			};
+			name = Debug;
+		};
+		65F10A3568994197A1DDFED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		688F63B5DBC8452F874CCB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui/build;
+			};
+			name = Release;
+		};
+		836C13F3D1BC48F1AB5DE929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		837C302B83354DADA823B6FD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8394594F41374B0DA79B9DC6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui/build;
+			};
+			name = RelWithDebInfo;
+		};
+		BBFC4F2EFA03445D8D160E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C5BCE21759194508B8115459 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C64B562FB21F4A01A5CF5658 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CBBAEEFAD6D54C0E90395DBE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DA521C10D63F48CB85811473 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F962BC6AB18046E686B3A1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BFAB2148C7B483A9F9B751D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFC4F2EFA03445D8D160E5D /* Debug */,
+				5928917CFA0F4910A9B8125E /* Release */,
+				14D066F1D3A7432C9675DA31 /* MinSizeRel */,
+				54DCF4734FAE47979A0D207F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64FCFB8F94F841C08CEF7341 /* Build configuration list for PBXNativeTarget "imgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E2DCCDEB3647A2BA73528C /* Debug */,
+				F962BC6AB18046E686B3A1E4 /* Release */,
+				DA521C10D63F48CB85811473 /* MinSizeRel */,
+				C64B562FB21F4A01A5CF5658 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D94A6EF7D12F4016BF6E479C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836C13F3D1BC48F1AB5DE929 /* Debug */,
+				6009ACAEF4254DB090D591CB /* Release */,
+				837C302B83354DADA823B6FD /* MinSizeRel */,
+				C5BCE21759194508B8115459 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA5FA10FD2C546579DA6968D /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F07C260A494801821263F5 /* Debug */,
+				65F10A3568994197A1DDFED9 /* Release */,
+				CBBAEEFAD6D54C0E90395DBE /* MinSizeRel */,
+				25A1C3F361E24875BE98C4AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFD3A94827C3453798279F02 /* Build configuration list for PBXProject "imgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64130E3AD79C4A3F82BA5FBD /* Debug */,
+				688F63B5DBC8452F874CCB79 /* Release */,
+				52A66225D6F2412C918C5801 /* MinSizeRel */,
+				8394594F41374B0DA79B9DC6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B572F2F7DB0C497180D97BE4 /* Project object */;
+}

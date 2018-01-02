@@ -10,6 +10,7 @@
 #include "imgui_impl_glfw_gl3.h"
 
 // GL3W/GLFW
+#define GLFW_INCLUDE_GLCOREARB
 #if defined(__APPLE_CC__)
 #include <OpenGL/gl3.h>
 #else

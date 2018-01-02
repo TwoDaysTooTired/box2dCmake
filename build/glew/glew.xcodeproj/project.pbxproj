@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA260BEF417D43729B988B0B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D348E26B6AF9479DA4F2BE7C /* CMake Rules */,
+			);
+			dependencies = (
+				C1719557189E4B3C970EFC34 /* PBXTargetDependency */,
+				91EE5AF4EBAF4B4F9C41EE12 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 29EC970E442D4B39B6AA53B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F688B1D899E64E8E9052343A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		ED9E425F625D429999396885 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0CA938B034C4A1EB9D7F1D3 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				17AD4305F7E841D3A8CD1021 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				63AD92B7E4BA497D9A34C374 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		35AD08A384164204964E870B /* /Users/wusunquan/Documents/box/glew/glxew.h */ = {isa = PBXBuildFile; fileRef = 546BFDE2E88C406BBB036EB3 /* /Users/wusunquan/Documents/box/glew/glxew.h */; };
+		53126120A8DA45F59B84E406 /* /Users/wusunquan/Documents/box/glew/wglew.h */ = {isa = PBXBuildFile; fileRef = 679C674630614C51AC3C10F0 /* /Users/wusunquan/Documents/box/glew/wglew.h */; };
+		A4F4DA6187424F58B7E193CB /* /Users/wusunquan/Documents/box/glew/glew.c */ = {isa = PBXBuildFile; fileRef = D04B493C793C4B5B9FB28D8D /* /Users/wusunquan/Documents/box/glew/glew.c */; };
+		AA72C72F9227433DB6D06963 /* /Users/wusunquan/Documents/box/glew/glew.h */ = {isa = PBXBuildFile; fileRef = 183CAECBA3C343BEACE3714A /* /Users/wusunquan/Documents/box/glew/glew.h */; };
+		F3ABDC036965404BA9EF494A /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1D786008181E42D3BA5C0B5F /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		A48A4FE71CE64A5A92CC0FAC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C5D7EDD38B6849FAB04E70CF /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D563AA1FB23F4D83AF9B7B04 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E42B7F2D282F431FBBC7F7DD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2180DF52A15948C0900D0CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6484438A5943809F1D0A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1333FF3F70B438599CA1E9C;
+			remoteInfo = glew;
+		};
+		97D9954927744AE1A6461E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6484438A5943809F1D0A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C2A3A62D8F4DCA9A6A2686;
+			remoteInfo = ALL_BUILD;
+		};
+		CB3EB65B5E9E41B2904EC274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6484438A5943809F1D0A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+		E8BC1CC1EF95422BB5115385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6484438A5943809F1D0A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183CAECBA3C343BEACE3714A /* /Users/wusunquan/Documents/box/glew/glew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glew.h; path = glew.h; sourceTree = SOURCE_ROOT; };
+		1D786008181E42D3BA5C0B5F /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CB1220AAAC043AB98CC8CF0 /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2FBBCCF7098445608244BE7E /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		546BFDE2E88C406BBB036EB3 /* /Users/wusunquan/Documents/box/glew/glxew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glxew.h; path = glxew.h; sourceTree = SOURCE_ROOT; };
+		679C674630614C51AC3C10F0 /* /Users/wusunquan/Documents/box/glew/wglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wglew.h; path = wglew.h; sourceTree = SOURCE_ROOT; };
+		CD5A496C496944CD8FA752B4 /* glew */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglew.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B493C793C4B5B9FB28D8D /* /Users/wusunquan/Documents/box/glew/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = glew.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A32CF869B2E4FBDA19657E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A496C496944CD8FA752B4 /* glew */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E75E496B1F1454BB403C582 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04B493C793C4B5B9FB28D8D /* /Users/wusunquan/Documents/box/glew/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		931C07CD03A743C3881425E3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9F42619E649F4712B36E96CC /* GLEW */ = {
+			isa = PBXGroup;
+			children = (
+				DF511DC2E43E4C73B2E02D04 /* glew */,
+			);
+			name = GLEW;
+			sourceTree = "<group>";
+		};
+		A4236AE5F4B54A2595D35BD4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				931C07CD03A743C3881425E3 /* CMake Rules */,
+				2FBBCCF7098445608244BE7E /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A45239E4889442F0A734C50F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				183CAECBA3C343BEACE3714A /* /Users/wusunquan/Documents/box/glew/glew.h */,
+				546BFDE2E88C406BBB036EB3 /* /Users/wusunquan/Documents/box/glew/glxew.h */,
+				679C674630614C51AC3C10F0 /* /Users/wusunquan/Documents/box/glew/wglew.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A8B2A8FEBDCB4E499E26C0F0 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				C98F751E2CBC443BB77D3C71 /* CMake Rules */,
+				2CB1220AAAC043AB98CC8CF0 /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		C98F751E2CBC443BB77D3C71 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DF511DC2E43E4C73B2E02D04 /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				8E75E496B1F1454BB403C582 /* Source Files */,
+				A45239E4889442F0A734C50F /* Header Files */,
+				1D786008181E42D3BA5C0B5F /* /Users/wusunquan/Documents/box/glew/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		E651AF1EFF53403E894DC9EE = {
+			isa = PBXGroup;
+			children = (
+				9F42619E649F4712B36E96CC /* GLEW */,
+				A4236AE5F4B54A2595D35BD4 /* ALL_BUILD */,
+				A8B2A8FEBDCB4E499E26C0F0 /* ZERO_CHECK */,
+				1A32CF869B2E4FBDA19657E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1333FF3F70B438599CA1E9C /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034769A7DF4949D2B0B8263D /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				1C243938E91B4BC8B65B4DC2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437D11F7CCC04AD28E5FE858 /* PBXTargetDependency */,
+			);
+			name = glew;
+			productName = glew;
+			productReference = CD5A496C496944CD8FA752B4 /* glew */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6484438A5943809F1D0A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 95306CE97D734F9C8E691151 /* Build configuration list for PBXProject "glew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C5D7EDD38B6849FAB04E70CF /* Debug */,
+				E42B7F2D282F431FBBC7F7DD /* Release */,
+				A48A4FE71CE64A5A92CC0FAC /* MinSizeRel */,
+				D563AA1FB23F4D83AF9B7B04 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E651AF1EFF53403E894DC9EE;
+			projectDirPath = ../../glew;
+			projectRoot = "";
+			targets = (
+				10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */,
+				8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */,
+				F1333FF3F70B438599CA1E9C /* glew */,
+				ED9E425F625D429999396885 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17AD4305F7E841D3A8CD1021 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/glew -f /Users/wusunquan/Documents/box/build/glew/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		59778C37563D4826AC6F144D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CEF0291988F04567A09CBB2D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D348E26B6AF9479DA4F2BE7C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/glew -f /Users/wusunquan/Documents/box/build/glew/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F688B1D899E64E8E9052343A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/glew -f /Users/wusunquan/Documents/box/build/glew/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FB5298BD790C407291A352EB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C243938E91B4BC8B65B4DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F4DA6187424F58B7E193CB /* /Users/wusunquan/Documents/box/glew/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437D11F7CCC04AD28E5FE858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = CB3EB65B5E9E41B2904EC274 /* PBXContainerItemProxy */;
+		};
+		63AD92B7E4BA497D9A34C374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */;
+			targetProxy = 97D9954927744AE1A6461E9C /* PBXContainerItemProxy */;
+		};
+		91EE5AF4EBAF4B4F9C41EE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1333FF3F70B438599CA1E9C /* glew */;
+			targetProxy = 2180DF52A15948C0900D0CC6 /* PBXContainerItemProxy */;
+		};
+		C1719557189E4B3C970EFC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = E8BC1CC1EF95422BB5115385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BDA67CA98A4EB2A8911A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		155106F7D9E54079932F85FF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1728795337EF453D81B5B0AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2096D5A4640B450FA57C8B13 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		36B68A31C39F4DAF9FFADC3E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3C422F0C34E04E56A7AF0801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		46D92A50DFFA4E2A91B0EE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew/build;
+			};
+			name = Debug;
+		};
+		4EC62617A7274A03B0C1E7D6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew/build;
+			};
+			name = MinSizeRel;
+		};
+		54C2806EE8CB4C2694E88DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99    -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5BBE9150B55749FB93FBF9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew/build;
+			};
+			name = Release;
+		};
+		6D34827344E14AADB1ECD291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A797C6EE44B4472DA8C270DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AD7C652F1B904E3999FA74F0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BAB5AF1BDF824DE59E579A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BB4D32341D2B4BFC9E45A619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C7C589319E9E4DDA9BA61AF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -std=c99        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D5BB4DD42AEE440EAE6D0D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DB5934A431F4459BA89E6EA9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DDEBB6645A8C447FAEF6F141 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E4ABF2D6AD2945779C7EE574 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/glew;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034769A7DF4949D2B0B8263D /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2806EE8CB4C2694E88DFF /* Debug */,
+				A797C6EE44B4472DA8C270DB /* Release */,
+				36B68A31C39F4DAF9FFADC3E /* MinSizeRel */,
+				C7C589319E9E4DDA9BA61AF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		29EC970E442D4B39B6AA53B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D34827344E14AADB1ECD291 /* Debug */,
+				BB4D32341D2B4BFC9E45A619 /* Release */,
+				DB5934A431F4459BA89E6EA9 /* MinSizeRel */,
+				155106F7D9E54079932F85FF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95306CE97D734F9C8E691151 /* Build configuration list for PBXProject "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D92A50DFFA4E2A91B0EE3B /* Debug */,
+				5BBE9150B55749FB93FBF9BF /* Release */,
+				4EC62617A7274A03B0C1E7D6 /* MinSizeRel */,
+				1728795337EF453D81B5B0AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0CA938B034C4A1EB9D7F1D3 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BDA67CA98A4EB2A8911A07 /* Debug */,
+				BAB5AF1BDF824DE59E579A84 /* Release */,
+				E4ABF2D6AD2945779C7EE574 /* MinSizeRel */,
+				2096D5A4640B450FA57C8B13 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA260BEF417D43729B988B0B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C422F0C34E04E56A7AF0801 /* Debug */,
+				D5BB4DD42AEE440EAE6D0D04 /* Release */,
+				AD7C652F1B904E3999FA74F0 /* MinSizeRel */,
+				DDEBB6645A8C447FAEF6F141 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6484438A5943809F1D0A26 /* Project object */;
+}

@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 073656F792AB429B831D4A60 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				9A7D2FB7D5024ABCBD358C72 /* CMake Rules */,
+			);
+			dependencies = (
+				F8FBEA1A7B1F445C9C2D9338 /* PBXTargetDependency */,
+				5634D35C0E324EF3BFDC3C6D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 64CE1F93E7A3417E896AD7E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1C3EB098834E4374BCE418D4 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		ED9E425F625D429999396885 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 84D38E5031D04386A4C9AE19 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				514D120B4E954DC3929C5F5C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E3AFCA6E005E4266988ABCC2 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FE096BA72944586875C40D6 /* /Users/wusunquan/Documents/box/testbed/Tests/SliderCrank.h */ = {isa = PBXBuildFile; fileRef = B78F1E6B1EB745DD974508E9 /* /Users/wusunquan/Documents/box/testbed/Tests/SliderCrank.h */; };
+		11EAEF7E900A4822B6440FC2 /* /Users/wusunquan/Documents/box/testbed/Tests/Bridge.h */ = {isa = PBXBuildFile; fileRef = 548CEEEBF47F475BA358D74B /* /Users/wusunquan/Documents/box/testbed/Tests/Bridge.h */; };
+		17E2CAE1A3C3461FAE3B18B2 /* /Users/wusunquan/Documents/box/testbed/Tests/BasicSliderCrank.h */ = {isa = PBXBuildFile; fileRef = B7C6B426C0DF48F68950F734 /* /Users/wusunquan/Documents/box/testbed/Tests/BasicSliderCrank.h */; };
+		18452B63CB554E0FA9A1DFB1 /* /Users/wusunquan/Documents/box/testbed/Tests/BodyTypes.h */ = {isa = PBXBuildFile; fileRef = 0C40963BAA4040B7BC50B9A6 /* /Users/wusunquan/Documents/box/testbed/Tests/BodyTypes.h */; };
+		1F640325E99B429CA104DDB6 /* /Users/wusunquan/Documents/box/testbed/Framework/Test.cpp */ = {isa = PBXBuildFile; fileRef = 57183E42A0054AF88183997C /* /Users/wusunquan/Documents/box/testbed/Framework/Test.cpp */; };
+		217213F7F4F9449EA3ECF2CC /* /Users/wusunquan/Documents/box/testbed/Tests/Rope.h */ = {isa = PBXBuildFile; fileRef = 2940D27B4F494472B5ACCEB3 /* /Users/wusunquan/Documents/box/testbed/Tests/Rope.h */; };
+		232532AEAA0646739DBDAE59 /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 82A77B8CD2664DFC82D231D4 /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */; };
+		2466677D9F3145F5A27D5CA6 /* /Users/wusunquan/Documents/box/testbed/Tests/Web.h */ = {isa = PBXBuildFile; fileRef = 3CF2992F33774C72B87A405F /* /Users/wusunquan/Documents/box/testbed/Tests/Web.h */; };
+		2D754A5D4D454711B04EEE0F /* /Users/wusunquan/Documents/box/testbed/Tests/MotorJoint.h */ = {isa = PBXBuildFile; fileRef = D0E9B6E134C8448BB29E6FC1 /* /Users/wusunquan/Documents/box/testbed/Tests/MotorJoint.h */; };
+		2E652FBBA4364EEB9A0A6F9A /* /Users/wusunquan/Documents/box/testbed/Tests/Pinball.h */ = {isa = PBXBuildFile; fileRef = 053E2AD14F404BF5AA21D408 /* /Users/wusunquan/Documents/box/testbed/Tests/Pinball.h */; };
+		334A19D735BE4B6D8F3E929C /* /Users/wusunquan/Documents/box/testbed/Tests/TimeOfImpact.h */ = {isa = PBXBuildFile; fileRef = 1DAFFBBB0528453DAF89A6AD /* /Users/wusunquan/Documents/box/testbed/Tests/TimeOfImpact.h */; };
+		3373E3C6F5C44C94B23F5E48 /* /Users/wusunquan/Documents/box/testbed/Tests/Mobile.h */ = {isa = PBXBuildFile; fileRef = 3E0ACD1620FE46238CF65704 /* /Users/wusunquan/Documents/box/testbed/Tests/Mobile.h */; };
+		374B4A88A8224283A7CB10C5 /* /Users/wusunquan/Documents/box/testbed/Tests/CompoundShapes.h */ = {isa = PBXBuildFile; fileRef = C1073942BAFC4A189E576DA9 /* /Users/wusunquan/Documents/box/testbed/Tests/CompoundShapes.h */; };
+		3AEF67FB6E0B4F1CAAF707BE /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingRestitution.h */ = {isa = PBXBuildFile; fileRef = 8EE4F1F61A28495EA7C5D6AD /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingRestitution.h */; };
+		3C09AE53E1B747089621BECA /* /Users/wusunquan/Documents/box/testbed/Tests/Pulleys.h */ = {isa = PBXBuildFile; fileRef = 94A4A37662B243B596CEE3E5 /* /Users/wusunquan/Documents/box/testbed/Tests/Pulleys.h */; };
+		4DD8B30495AC41E3AB7AC71B /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeTest.h */ = {isa = PBXBuildFile; fileRef = 8B297F69C865449EBF617904 /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeTest.h */; };
+		5089D4D4E16B4E7EB96B242A /* /Users/wusunquan/Documents/box/testbed/Tests/SphereStack.h */ = {isa = PBXBuildFile; fileRef = 8D088C40E95B424EADBEBDEC /* /Users/wusunquan/Documents/box/testbed/Tests/SphereStack.h */; };
+		58A48ABE6D6945FD866FBEA1 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLight.h */ = {isa = PBXBuildFile; fileRef = F684ABFDD8174496880D4898 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLight.h */; };
+		5DC9033D617E441D91CDF556 /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionProcessing.h */ = {isa = PBXBuildFile; fileRef = 42CAAB19413D4BBEA1EC6F26 /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionProcessing.h */; };
+		5DFDB06195FD4E7492C6B5D1 /* /Users/wusunquan/Documents/box/testbed/Framework/Main.cpp */ = {isa = PBXBuildFile; fileRef = 6E41BE3FAC074A3AAD4D08FA /* /Users/wusunquan/Documents/box/testbed/Framework/Main.cpp */; };
+		5ED4B8C79D5C4D9EA2BE985D /* /Users/wusunquan/Documents/box/testbed/Tests/Revolute.h */ = {isa = PBXBuildFile; fileRef = F4E3B68A3B2449CB9B3FE80A /* /Users/wusunquan/Documents/box/testbed/Tests/Revolute.h */; };
+		62BC295FDFC948119D309546 /* /Users/wusunquan/Documents/box/testbed/Tests/Cantilever.h */ = {isa = PBXBuildFile; fileRef = FB50668D9C66447380BC333E /* /Users/wusunquan/Documents/box/testbed/Tests/Cantilever.h */; };
+		67F601D436EC4258B3CFACD5 /* /Users/wusunquan/Documents/box/testbed/Tests/Pyramid.h */ = {isa = PBXBuildFile; fileRef = 760CFC98803D4369B5EC6568 /* /Users/wusunquan/Documents/box/testbed/Tests/Pyramid.h */; };
+		6C9664167D364918AAE03A97 /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingFriction.h */ = {isa = PBXBuildFile; fileRef = 4463EF3FC76D487F9312F2F7 /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingFriction.h */; };
+		715BD881904E4BD4B3C07162 /* /Users/wusunquan/Documents/box/testbed/Tests/PolyCollision.h */ = {isa = PBXBuildFile; fileRef = DCB9837F3F6D43A1A0F8C229 /* /Users/wusunquan/Documents/box/testbed/Tests/PolyCollision.h */; };
+		715F224540714E1A9EA8F921 /* /Users/wusunquan/Documents/box/testbed/Tests/Skier.h */ = {isa = PBXBuildFile; fileRef = 547F7826789747CE9F51E323 /* /Users/wusunquan/Documents/box/testbed/Tests/Skier.h */; };
+		7A1A54E88A324384ADC82313 /* /Users/wusunquan/Documents/box/testbed/Tests/BulletTest.h */ = {isa = PBXBuildFile; fileRef = A0CD782A3E234520AC8D51DD /* /Users/wusunquan/Documents/box/testbed/Tests/BulletTest.h */; };
+		7CD52B846F0D478FB5380CDD /* /Users/wusunquan/Documents/box/testbed/Tests/TestEntries.cpp */ = {isa = PBXBuildFile; fileRef = 2C955635E84948FEB4F23886 /* /Users/wusunquan/Documents/box/testbed/Tests/TestEntries.cpp */; };
+		7D5CC6833A4C4178B52383F3 /* /Users/wusunquan/Documents/box/testbed/Data/DroidSans.ttf */ = {isa = PBXBuildFile; fileRef = 43095E063E9B40F4A3C155BE /* /Users/wusunquan/Documents/box/testbed/Data/DroidSans.ttf */; };
+		86BEEC1F620F4F64A87AC8ED /* /Users/wusunquan/Documents/box/testbed/Tests/Gears.h */ = {isa = PBXBuildFile; fileRef = F7135032F44D40E2A10EB99D /* /Users/wusunquan/Documents/box/testbed/Tests/Gears.h */; };
+		88E16B3B8D5E429FB8E7991F /* /Users/wusunquan/Documents/box/testbed/Tests/ApplyForce.h */ = {isa = PBXBuildFile; fileRef = BF90D91C2E0847AFB32CC383 /* /Users/wusunquan/Documents/box/testbed/Tests/ApplyForce.h */; };
+		8AE49FF7C44B476DAD3051CD /* /Users/wusunquan/Documents/box/testbed/Tests/Confined.h */ = {isa = PBXBuildFile; fileRef = 7C176AA171B84F269A362352 /* /Users/wusunquan/Documents/box/testbed/Tests/Confined.h */; };
+		8C88936F515849838C57DFAB /* /Users/wusunquan/Documents/box/testbed/Tests/ContinuousTest.h */ = {isa = PBXBuildFile; fileRef = E5519D0ABA22463597EF034B /* /Users/wusunquan/Documents/box/testbed/Tests/ContinuousTest.h */; };
+		913A3409F7E64B52A83FD06D /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.h */ = {isa = PBXBuildFile; fileRef = 61B7A3A4887F4EBA83A31827 /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.h */; };
+		997DE9227FD1497F9B0C9AFE /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 641910AE5CA341A881C285F2 /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.cpp */; };
+		99B81C7B4357473E96CEEBD0 /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeShapes.h */ = {isa = PBXBuildFile; fileRef = 5C6CF331D08B4997A21A025F /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeShapes.h */; };
+		9F1831E6668D48D390859021 /* /Users/wusunquan/Documents/box/testbed/Tests/Tiles.h */ = {isa = PBXBuildFile; fileRef = F964F2A0D0384BA8BC5FEFC6 /* /Users/wusunquan/Documents/box/testbed/Tests/Tiles.h */; };
+		A0BB1258DE0740A09039E3EF /* /Users/wusunquan/Documents/box/testbed/Tests/AddPair.h */ = {isa = PBXBuildFile; fileRef = A55C39084BF14FDEBBF9535E /* /Users/wusunquan/Documents/box/testbed/Tests/AddPair.h */; };
+		A485B305AE2E42E497C0115D /* /Users/wusunquan/Documents/box/testbed/Tests/OneSidedPlatform.h */ = {isa = PBXBuildFile; fileRef = 602630A826DE49D0A05C77CE /* /Users/wusunquan/Documents/box/testbed/Tests/OneSidedPlatform.h */; };
+		A4C58F34FB6F4A0D8F09F539 /* /Users/wusunquan/Documents/box/testbed/Tests/SensorTest.h */ = {isa = PBXBuildFile; fileRef = 6B2B0068214C442EA404A1B8 /* /Users/wusunquan/Documents/box/testbed/Tests/SensorTest.h */; };
+		A585D1E69198463E81D7EB2C /* /Users/wusunquan/Documents/box/testbed/Tests/MobileBalanced.h */ = {isa = PBXBuildFile; fileRef = EF2F85895DCE4AAC9851ECFE /* /Users/wusunquan/Documents/box/testbed/Tests/MobileBalanced.h */; };
+		A5BCCFCEC9EE41A5BB7A9B12 /* /Users/wusunquan/Documents/box/testbed/Tests/Car.h */ = {isa = PBXBuildFile; fileRef = 601D2D3CDC2540D39D77E0D2 /* /Users/wusunquan/Documents/box/testbed/Tests/Car.h */; };
+		A711967154264EFF8B42A5FB /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionFiltering.h */ = {isa = PBXBuildFile; fileRef = 60BA7FE5F8C24C21B4767A78 /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionFiltering.h */; };
+		AA935B36C61E4A5C9B877E08 /* /Users/wusunquan/Documents/box/testbed/Tests/Prismatic.h */ = {isa = PBXBuildFile; fileRef = 83EC0693D535436F87F1BCE0 /* /Users/wusunquan/Documents/box/testbed/Tests/Prismatic.h */; };
+		AEA36597434C4B3C9B1FBB7E /* /Users/wusunquan/Documents/box/testbed/Tests/Dominos.h */ = {isa = PBXBuildFile; fileRef = 02D485298A7E424294048FED /* /Users/wusunquan/Documents/box/testbed/Tests/Dominos.h */; };
+		B98818E2CD6A4D9BA3661706 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLightTwo.h */ = {isa = PBXBuildFile; fileRef = 98A99105C55F4D3A903B9352 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLightTwo.h */; };
+		BD38A05305A744538CCEA313 /* /Users/wusunquan/Documents/box/testbed/Tests/Tumbler.h */ = {isa = PBXBuildFile; fileRef = 6F8A2D6E9C5643519F806504 /* /Users/wusunquan/Documents/box/testbed/Tests/Tumbler.h */; };
+		BF3FD0AB700C47929D5FC6A0 /* /Users/wusunquan/Documents/box/testbed/Tests/ShapeEditing.h */ = {isa = PBXBuildFile; fileRef = 678BCC57062C4506A740FEFA /* /Users/wusunquan/Documents/box/testbed/Tests/ShapeEditing.h */; };
+		C08403454F914D4491C5E299 /* /Users/wusunquan/Documents/box/testbed/Tests/PolyShapes.h */ = {isa = PBXBuildFile; fileRef = C3766E1A3C034C7C924AAC5F /* /Users/wusunquan/Documents/box/testbed/Tests/PolyShapes.h */; };
+		CBBCA7FF5034450BBDEA02FD /* /Users/wusunquan/Documents/box/testbed/Tests/TheoJansen.h */ = {isa = PBXBuildFile; fileRef = 30AA106C47CE404481A3DE78 /* /Users/wusunquan/Documents/box/testbed/Tests/TheoJansen.h */; };
+		CEEB8DA8ECA54ADD8EDD9E38 /* /Users/wusunquan/Documents/box/testbed/Tests/Chain.h */ = {isa = PBXBuildFile; fileRef = 132E5A441B6A4A45ABC362C4 /* /Users/wusunquan/Documents/box/testbed/Tests/Chain.h */; };
+		D380863F7661435AA0AD6D84 /* /Users/wusunquan/Documents/box/testbed/Tests/ConveyorBelt.h */ = {isa = PBXBuildFile; fileRef = 03102374AF354F49B4CE0283 /* /Users/wusunquan/Documents/box/testbed/Tests/ConveyorBelt.h */; };
+		D52D9829EB994408BB9847EB /* /Users/wusunquan/Documents/box/testbed/Tests/Breakable.h */ = {isa = PBXBuildFile; fileRef = C6A94598D2344C4A84518EB7 /* /Users/wusunquan/Documents/box/testbed/Tests/Breakable.h */; };
+		D9B4413DCFFE45AA8F42F375 /* /Users/wusunquan/Documents/box/testbed/Framework/Test.h */ = {isa = PBXBuildFile; fileRef = 66F30D5550864BB48B877BB5 /* /Users/wusunquan/Documents/box/testbed/Framework/Test.h */; };
+		DB4ECE1AC1A64E65A0FB1D5C /* /Users/wusunquan/Documents/box/testbed/Tests/RopeJoint.h */ = {isa = PBXBuildFile; fileRef = E60FC1FE4F114132886486FD /* /Users/wusunquan/Documents/box/testbed/Tests/RopeJoint.h */; };
+		DE4887C69E5548EF99D9FF64 /* /Users/wusunquan/Documents/box/testbed/Tests/DynamicTreeTest.h */ = {isa = PBXBuildFile; fileRef = B3EBDD8B0C7A46C8A7E190C3 /* /Users/wusunquan/Documents/box/testbed/Tests/DynamicTreeTest.h */; };
+		E6CEAF4C6B9540F697BCD2E5 /* /Users/wusunquan/Documents/box/testbed/.DS_Store */ = {isa = PBXBuildFile; fileRef = 8D80098364BC43D3A53CF3B8 /* /Users/wusunquan/Documents/box/testbed/.DS_Store */; };
+		E97BA37930104B5BB15E312B /* /Users/wusunquan/Documents/box/testbed/Tests/DumpShell.h */ = {isa = PBXBuildFile; fileRef = EC945B5D529B481EA3D841CE /* /Users/wusunquan/Documents/box/testbed/Tests/DumpShell.h */; };
+		EA8698B990ED484DB34A586C /* /Users/wusunquan/Documents/box/testbed/Tests/CharacterCollision.h */ = {isa = PBXBuildFile; fileRef = 219492BA56DD491BBBDBFD2B /* /Users/wusunquan/Documents/box/testbed/Tests/CharacterCollision.h */; };
+		EAD312010A6348E6BD27B00F /* /Users/wusunquan/Documents/box/testbed/Tests/chainProblem.h */ = {isa = PBXBuildFile; fileRef = 1599F971AF2B449BB122E57B /* /Users/wusunquan/Documents/box/testbed/Tests/chainProblem.h */; };
+		EBD126E2797F4490BBFAF250 /* /Users/wusunquan/Documents/box/testbed/Tests/VerticalStack.h */ = {isa = PBXBuildFile; fileRef = 04F0C417D16C4CA7AC7F0826 /* /Users/wusunquan/Documents/box/testbed/Tests/VerticalStack.h */; };
+		EEFA2CEE6BD8415996C13447 /* /Users/wusunquan/Documents/box/testbed/Tests/ConvexHull.h */ = {isa = PBXBuildFile; fileRef = 78A05BD911AF4BDBBA40F492 /* /Users/wusunquan/Documents/box/testbed/Tests/ConvexHull.h */; };
+		EFE278043C784B329920D937 /* /Users/wusunquan/Documents/box/testbed/Tests/DistanceTest.h */ = {isa = PBXBuildFile; fileRef = 0B9033818BFB4EECA5F888DC /* /Users/wusunquan/Documents/box/testbed/Tests/DistanceTest.h */; };
+		F3B00DDFBDD04E3C90D6A883 /* /Users/wusunquan/Documents/box/testbed/Tests/RayCast.h */ = {isa = PBXBuildFile; fileRef = E342B08AF8364234B1E3CA96 /* /Users/wusunquan/Documents/box/testbed/Tests/RayCast.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		49761FE8DE66458B8A283CB6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5FDDC6FE57A74D7592CB1242 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6BA51344ADD04089B293C3A6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		9224DE48A9304E989DD87C7E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1C635810BDCA4709BBAEF98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286F2C1F5EF34D74B4A899CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+		28A18D55010D4762B3CA4E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286F2C1F5EF34D74B4A899CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C2A3A62D8F4DCA9A6A2686;
+			remoteInfo = ALL_BUILD;
+		};
+		415F379DB4E948299B9B2AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286F2C1F5EF34D74B4A899CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584D33F42E04CFD853FFFD9;
+			remoteInfo = ZERO_CHECK;
+		};
+		FAD89C932DA741A9897BC826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286F2C1F5EF34D74B4A899CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E41A8744C647518EDB6A1B;
+			remoteInfo = testbed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D485298A7E424294048FED /* /Users/wusunquan/Documents/box/testbed/Tests/Dominos.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Dominos.h; path = Tests/Dominos.h; sourceTree = SOURCE_ROOT; };
+		03102374AF354F49B4CE0283 /* /Users/wusunquan/Documents/box/testbed/Tests/ConveyorBelt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ConveyorBelt.h; path = Tests/ConveyorBelt.h; sourceTree = SOURCE_ROOT; };
+		04F0C417D16C4CA7AC7F0826 /* /Users/wusunquan/Documents/box/testbed/Tests/VerticalStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VerticalStack.h; path = Tests/VerticalStack.h; sourceTree = SOURCE_ROOT; };
+		053E2AD14F404BF5AA21D408 /* /Users/wusunquan/Documents/box/testbed/Tests/Pinball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Pinball.h; path = Tests/Pinball.h; sourceTree = SOURCE_ROOT; };
+		079AB94CBC744B7AB0287103 /* testbed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = testbed; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9033818BFB4EECA5F888DC /* /Users/wusunquan/Documents/box/testbed/Tests/DistanceTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DistanceTest.h; path = Tests/DistanceTest.h; sourceTree = SOURCE_ROOT; };
+		0C40963BAA4040B7BC50B9A6 /* /Users/wusunquan/Documents/box/testbed/Tests/BodyTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BodyTypes.h; path = Tests/BodyTypes.h; sourceTree = SOURCE_ROOT; };
+		132E5A441B6A4A45ABC362C4 /* /Users/wusunquan/Documents/box/testbed/Tests/Chain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Chain.h; path = Tests/Chain.h; sourceTree = SOURCE_ROOT; };
+		1599F971AF2B449BB122E57B /* /Users/wusunquan/Documents/box/testbed/Tests/chainProblem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = chainProblem.h; path = Tests/chainProblem.h; sourceTree = SOURCE_ROOT; };
+		1DAFFBBB0528453DAF89A6AD /* /Users/wusunquan/Documents/box/testbed/Tests/TimeOfImpact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TimeOfImpact.h; path = Tests/TimeOfImpact.h; sourceTree = SOURCE_ROOT; };
+		219492BA56DD491BBBDBFD2B /* /Users/wusunquan/Documents/box/testbed/Tests/CharacterCollision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CharacterCollision.h; path = Tests/CharacterCollision.h; sourceTree = SOURCE_ROOT; };
+		2940D27B4F494472B5ACCEB3 /* /Users/wusunquan/Documents/box/testbed/Tests/Rope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Rope.h; path = Tests/Rope.h; sourceTree = SOURCE_ROOT; };
+		2C955635E84948FEB4F23886 /* /Users/wusunquan/Documents/box/testbed/Tests/TestEntries.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TestEntries.cpp; path = Tests/TestEntries.cpp; sourceTree = SOURCE_ROOT; };
+		30AA106C47CE404481A3DE78 /* /Users/wusunquan/Documents/box/testbed/Tests/TheoJansen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TheoJansen.h; path = Tests/TheoJansen.h; sourceTree = SOURCE_ROOT; };
+		3CF2992F33774C72B87A405F /* /Users/wusunquan/Documents/box/testbed/Tests/Web.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Web.h; path = Tests/Web.h; sourceTree = SOURCE_ROOT; };
+		3E0ACD1620FE46238CF65704 /* /Users/wusunquan/Documents/box/testbed/Tests/Mobile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Mobile.h; path = Tests/Mobile.h; sourceTree = SOURCE_ROOT; };
+		42CAAB19413D4BBEA1EC6F26 /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionProcessing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CollisionProcessing.h; path = Tests/CollisionProcessing.h; sourceTree = SOURCE_ROOT; };
+		43095E063E9B40F4A3C155BE /* /Users/wusunquan/Documents/box/testbed/Data/DroidSans.ttf */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DroidSans.ttf; path = Data/DroidSans.ttf; sourceTree = SOURCE_ROOT; };
+		4463EF3FC76D487F9312F2F7 /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingFriction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VaryingFriction.h; path = Tests/VaryingFriction.h; sourceTree = SOURCE_ROOT; };
+		4C2B82C3AD464438BCF7C637 /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		547F7826789747CE9F51E323 /* /Users/wusunquan/Documents/box/testbed/Tests/Skier.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Skier.h; path = Tests/Skier.h; sourceTree = SOURCE_ROOT; };
+		548CEEEBF47F475BA358D74B /* /Users/wusunquan/Documents/box/testbed/Tests/Bridge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Bridge.h; path = Tests/Bridge.h; sourceTree = SOURCE_ROOT; };
+		57183E42A0054AF88183997C /* /Users/wusunquan/Documents/box/testbed/Framework/Test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test.cpp; path = Framework/Test.cpp; sourceTree = SOURCE_ROOT; };
+		5C6CF331D08B4997A21A025F /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeShapes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EdgeShapes.h; path = Tests/EdgeShapes.h; sourceTree = SOURCE_ROOT; };
+		601D2D3CDC2540D39D77E0D2 /* /Users/wusunquan/Documents/box/testbed/Tests/Car.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Car.h; path = Tests/Car.h; sourceTree = SOURCE_ROOT; };
+		602630A826DE49D0A05C77CE /* /Users/wusunquan/Documents/box/testbed/Tests/OneSidedPlatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OneSidedPlatform.h; path = Tests/OneSidedPlatform.h; sourceTree = SOURCE_ROOT; };
+		60BA7FE5F8C24C21B4767A78 /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionFiltering.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CollisionFiltering.h; path = Tests/CollisionFiltering.h; sourceTree = SOURCE_ROOT; };
+		61B7A3A4887F4EBA83A31827 /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DebugDraw.h; path = Framework/DebugDraw.h; sourceTree = SOURCE_ROOT; };
+		641910AE5CA341A881C285F2 /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = Framework/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		66F30D5550864BB48B877BB5 /* /Users/wusunquan/Documents/box/testbed/Framework/Test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Test.h; path = Framework/Test.h; sourceTree = SOURCE_ROOT; };
+		678BCC57062C4506A740FEFA /* /Users/wusunquan/Documents/box/testbed/Tests/ShapeEditing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShapeEditing.h; path = Tests/ShapeEditing.h; sourceTree = SOURCE_ROOT; };
+		6B2B0068214C442EA404A1B8 /* /Users/wusunquan/Documents/box/testbed/Tests/SensorTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SensorTest.h; path = Tests/SensorTest.h; sourceTree = SOURCE_ROOT; };
+		6E41BE3FAC074A3AAD4D08FA /* /Users/wusunquan/Documents/box/testbed/Framework/Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = Framework/Main.cpp; sourceTree = SOURCE_ROOT; };
+		6F8A2D6E9C5643519F806504 /* /Users/wusunquan/Documents/box/testbed/Tests/Tumbler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Tumbler.h; path = Tests/Tumbler.h; sourceTree = SOURCE_ROOT; };
+		760CFC98803D4369B5EC6568 /* /Users/wusunquan/Documents/box/testbed/Tests/Pyramid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Pyramid.h; path = Tests/Pyramid.h; sourceTree = SOURCE_ROOT; };
+		78A05BD911AF4BDBBA40F492 /* /Users/wusunquan/Documents/box/testbed/Tests/ConvexHull.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ConvexHull.h; path = Tests/ConvexHull.h; sourceTree = SOURCE_ROOT; };
+		7C176AA171B84F269A362352 /* /Users/wusunquan/Documents/box/testbed/Tests/Confined.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Confined.h; path = Tests/Confined.h; sourceTree = SOURCE_ROOT; };
+		82A77B8CD2664DFC82D231D4 /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		83EC0693D535436F87F1BCE0 /* /Users/wusunquan/Documents/box/testbed/Tests/Prismatic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Prismatic.h; path = Tests/Prismatic.h; sourceTree = SOURCE_ROOT; };
+		8B297F69C865449EBF617904 /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EdgeTest.h; path = Tests/EdgeTest.h; sourceTree = SOURCE_ROOT; };
+		8D088C40E95B424EADBEBDEC /* /Users/wusunquan/Documents/box/testbed/Tests/SphereStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SphereStack.h; path = Tests/SphereStack.h; sourceTree = SOURCE_ROOT; };
+		8D80098364BC43D3A53CF3B8 /* /Users/wusunquan/Documents/box/testbed/.DS_Store */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = .DS_Store; path = .DS_Store; sourceTree = SOURCE_ROOT; };
+		8EE4F1F61A28495EA7C5D6AD /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingRestitution.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VaryingRestitution.h; path = Tests/VaryingRestitution.h; sourceTree = SOURCE_ROOT; };
+		94A4A37662B243B596CEE3E5 /* /Users/wusunquan/Documents/box/testbed/Tests/Pulleys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Pulleys.h; path = Tests/Pulleys.h; sourceTree = SOURCE_ROOT; };
+		98A99105C55F4D3A903B9352 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLightTwo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HeavyOnLightTwo.h; path = Tests/HeavyOnLightTwo.h; sourceTree = SOURCE_ROOT; };
+		A0CD782A3E234520AC8D51DD /* /Users/wusunquan/Documents/box/testbed/Tests/BulletTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BulletTest.h; path = Tests/BulletTest.h; sourceTree = SOURCE_ROOT; };
+		A55C39084BF14FDEBBF9535E /* /Users/wusunquan/Documents/box/testbed/Tests/AddPair.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AddPair.h; path = Tests/AddPair.h; sourceTree = SOURCE_ROOT; };
+		B3EBDD8B0C7A46C8A7E190C3 /* /Users/wusunquan/Documents/box/testbed/Tests/DynamicTreeTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DynamicTreeTest.h; path = Tests/DynamicTreeTest.h; sourceTree = SOURCE_ROOT; };
+		B78F1E6B1EB745DD974508E9 /* /Users/wusunquan/Documents/box/testbed/Tests/SliderCrank.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SliderCrank.h; path = Tests/SliderCrank.h; sourceTree = SOURCE_ROOT; };
+		B7C6B426C0DF48F68950F734 /* /Users/wusunquan/Documents/box/testbed/Tests/BasicSliderCrank.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BasicSliderCrank.h; path = Tests/BasicSliderCrank.h; sourceTree = SOURCE_ROOT; };
+		BF90D91C2E0847AFB32CC383 /* /Users/wusunquan/Documents/box/testbed/Tests/ApplyForce.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ApplyForce.h; path = Tests/ApplyForce.h; sourceTree = SOURCE_ROOT; };
+		C1073942BAFC4A189E576DA9 /* /Users/wusunquan/Documents/box/testbed/Tests/CompoundShapes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CompoundShapes.h; path = Tests/CompoundShapes.h; sourceTree = SOURCE_ROOT; };
+		C3766E1A3C034C7C924AAC5F /* /Users/wusunquan/Documents/box/testbed/Tests/PolyShapes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PolyShapes.h; path = Tests/PolyShapes.h; sourceTree = SOURCE_ROOT; };
+		C6A94598D2344C4A84518EB7 /* /Users/wusunquan/Documents/box/testbed/Tests/Breakable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Breakable.h; path = Tests/Breakable.h; sourceTree = SOURCE_ROOT; };
+		D0E9B6E134C8448BB29E6FC1 /* /Users/wusunquan/Documents/box/testbed/Tests/MotorJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MotorJoint.h; path = Tests/MotorJoint.h; sourceTree = SOURCE_ROOT; };
+		DCB9837F3F6D43A1A0F8C229 /* /Users/wusunquan/Documents/box/testbed/Tests/PolyCollision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PolyCollision.h; path = Tests/PolyCollision.h; sourceTree = SOURCE_ROOT; };
+		E342B08AF8364234B1E3CA96 /* /Users/wusunquan/Documents/box/testbed/Tests/RayCast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RayCast.h; path = Tests/RayCast.h; sourceTree = SOURCE_ROOT; };
+		E5519D0ABA22463597EF034B /* /Users/wusunquan/Documents/box/testbed/Tests/ContinuousTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ContinuousTest.h; path = Tests/ContinuousTest.h; sourceTree = SOURCE_ROOT; };
+		E60FC1FE4F114132886486FD /* /Users/wusunquan/Documents/box/testbed/Tests/RopeJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RopeJoint.h; path = Tests/RopeJoint.h; sourceTree = SOURCE_ROOT; };
+		EC945B5D529B481EA3D841CE /* /Users/wusunquan/Documents/box/testbed/Tests/DumpShell.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DumpShell.h; path = Tests/DumpShell.h; sourceTree = SOURCE_ROOT; };
+		EF2F85895DCE4AAC9851ECFE /* /Users/wusunquan/Documents/box/testbed/Tests/MobileBalanced.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MobileBalanced.h; path = Tests/MobileBalanced.h; sourceTree = SOURCE_ROOT; };
+		F4E3B68A3B2449CB9B3FE80A /* /Users/wusunquan/Documents/box/testbed/Tests/Revolute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Revolute.h; path = Tests/Revolute.h; sourceTree = SOURCE_ROOT; };
+		F684ABFDD8174496880D4898 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLight.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HeavyOnLight.h; path = Tests/HeavyOnLight.h; sourceTree = SOURCE_ROOT; };
+		F7135032F44D40E2A10EB99D /* /Users/wusunquan/Documents/box/testbed/Tests/Gears.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Gears.h; path = Tests/Gears.h; sourceTree = SOURCE_ROOT; };
+		F878466654D745F59D1608EA /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F964F2A0D0384BA8BC5FEFC6 /* /Users/wusunquan/Documents/box/testbed/Tests/Tiles.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Tiles.h; path = Tests/Tiles.h; sourceTree = SOURCE_ROOT; };
+		FB50668D9C66447380BC333E /* /Users/wusunquan/Documents/box/testbed/Tests/Cantilever.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Cantilever.h; path = Tests/Cantilever.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E3ED4A38322485CB9C0B336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079AB94CBC744B7AB0287103 /* testbed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA39D516D4B4596A98023BD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D6A054CCD7D74FB8A6895A79 /* CMake Rules */,
+				4C2B82C3AD464438BCF7C637 /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		31522FD6F9D64606B4278DB1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				FF17E48948DB4485A35E0CB1 /* CMake Rules */,
+				F878466654D745F59D1608EA /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		49D372AC66914B1AA834B51F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B7A3A4887F4EBA83A31827 /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.h */,
+				66F30D5550864BB48B877BB5 /* /Users/wusunquan/Documents/box/testbed/Framework/Test.h */,
+				A55C39084BF14FDEBBF9535E /* /Users/wusunquan/Documents/box/testbed/Tests/AddPair.h */,
+				BF90D91C2E0847AFB32CC383 /* /Users/wusunquan/Documents/box/testbed/Tests/ApplyForce.h */,
+				B7C6B426C0DF48F68950F734 /* /Users/wusunquan/Documents/box/testbed/Tests/BasicSliderCrank.h */,
+				0C40963BAA4040B7BC50B9A6 /* /Users/wusunquan/Documents/box/testbed/Tests/BodyTypes.h */,
+				C6A94598D2344C4A84518EB7 /* /Users/wusunquan/Documents/box/testbed/Tests/Breakable.h */,
+				548CEEEBF47F475BA358D74B /* /Users/wusunquan/Documents/box/testbed/Tests/Bridge.h */,
+				A0CD782A3E234520AC8D51DD /* /Users/wusunquan/Documents/box/testbed/Tests/BulletTest.h */,
+				FB50668D9C66447380BC333E /* /Users/wusunquan/Documents/box/testbed/Tests/Cantilever.h */,
+				601D2D3CDC2540D39D77E0D2 /* /Users/wusunquan/Documents/box/testbed/Tests/Car.h */,
+				132E5A441B6A4A45ABC362C4 /* /Users/wusunquan/Documents/box/testbed/Tests/Chain.h */,
+				219492BA56DD491BBBDBFD2B /* /Users/wusunquan/Documents/box/testbed/Tests/CharacterCollision.h */,
+				60BA7FE5F8C24C21B4767A78 /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionFiltering.h */,
+				42CAAB19413D4BBEA1EC6F26 /* /Users/wusunquan/Documents/box/testbed/Tests/CollisionProcessing.h */,
+				C1073942BAFC4A189E576DA9 /* /Users/wusunquan/Documents/box/testbed/Tests/CompoundShapes.h */,
+				7C176AA171B84F269A362352 /* /Users/wusunquan/Documents/box/testbed/Tests/Confined.h */,
+				E5519D0ABA22463597EF034B /* /Users/wusunquan/Documents/box/testbed/Tests/ContinuousTest.h */,
+				78A05BD911AF4BDBBA40F492 /* /Users/wusunquan/Documents/box/testbed/Tests/ConvexHull.h */,
+				03102374AF354F49B4CE0283 /* /Users/wusunquan/Documents/box/testbed/Tests/ConveyorBelt.h */,
+				0B9033818BFB4EECA5F888DC /* /Users/wusunquan/Documents/box/testbed/Tests/DistanceTest.h */,
+				02D485298A7E424294048FED /* /Users/wusunquan/Documents/box/testbed/Tests/Dominos.h */,
+				EC945B5D529B481EA3D841CE /* /Users/wusunquan/Documents/box/testbed/Tests/DumpShell.h */,
+				B3EBDD8B0C7A46C8A7E190C3 /* /Users/wusunquan/Documents/box/testbed/Tests/DynamicTreeTest.h */,
+				5C6CF331D08B4997A21A025F /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeShapes.h */,
+				8B297F69C865449EBF617904 /* /Users/wusunquan/Documents/box/testbed/Tests/EdgeTest.h */,
+				F7135032F44D40E2A10EB99D /* /Users/wusunquan/Documents/box/testbed/Tests/Gears.h */,
+				F684ABFDD8174496880D4898 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLight.h */,
+				98A99105C55F4D3A903B9352 /* /Users/wusunquan/Documents/box/testbed/Tests/HeavyOnLightTwo.h */,
+				3E0ACD1620FE46238CF65704 /* /Users/wusunquan/Documents/box/testbed/Tests/Mobile.h */,
+				EF2F85895DCE4AAC9851ECFE /* /Users/wusunquan/Documents/box/testbed/Tests/MobileBalanced.h */,
+				D0E9B6E134C8448BB29E6FC1 /* /Users/wusunquan/Documents/box/testbed/Tests/MotorJoint.h */,
+				602630A826DE49D0A05C77CE /* /Users/wusunquan/Documents/box/testbed/Tests/OneSidedPlatform.h */,
+				053E2AD14F404BF5AA21D408 /* /Users/wusunquan/Documents/box/testbed/Tests/Pinball.h */,
+				DCB9837F3F6D43A1A0F8C229 /* /Users/wusunquan/Documents/box/testbed/Tests/PolyCollision.h */,
+				C3766E1A3C034C7C924AAC5F /* /Users/wusunquan/Documents/box/testbed/Tests/PolyShapes.h */,
+				83EC0693D535436F87F1BCE0 /* /Users/wusunquan/Documents/box/testbed/Tests/Prismatic.h */,
+				94A4A37662B243B596CEE3E5 /* /Users/wusunquan/Documents/box/testbed/Tests/Pulleys.h */,
+				760CFC98803D4369B5EC6568 /* /Users/wusunquan/Documents/box/testbed/Tests/Pyramid.h */,
+				E342B08AF8364234B1E3CA96 /* /Users/wusunquan/Documents/box/testbed/Tests/RayCast.h */,
+				F4E3B68A3B2449CB9B3FE80A /* /Users/wusunquan/Documents/box/testbed/Tests/Revolute.h */,
+				2940D27B4F494472B5ACCEB3 /* /Users/wusunquan/Documents/box/testbed/Tests/Rope.h */,
+				E60FC1FE4F114132886486FD /* /Users/wusunquan/Documents/box/testbed/Tests/RopeJoint.h */,
+				6B2B0068214C442EA404A1B8 /* /Users/wusunquan/Documents/box/testbed/Tests/SensorTest.h */,
+				678BCC57062C4506A740FEFA /* /Users/wusunquan/Documents/box/testbed/Tests/ShapeEditing.h */,
+				547F7826789747CE9F51E323 /* /Users/wusunquan/Documents/box/testbed/Tests/Skier.h */,
+				B78F1E6B1EB745DD974508E9 /* /Users/wusunquan/Documents/box/testbed/Tests/SliderCrank.h */,
+				8D088C40E95B424EADBEBDEC /* /Users/wusunquan/Documents/box/testbed/Tests/SphereStack.h */,
+				30AA106C47CE404481A3DE78 /* /Users/wusunquan/Documents/box/testbed/Tests/TheoJansen.h */,
+				F964F2A0D0384BA8BC5FEFC6 /* /Users/wusunquan/Documents/box/testbed/Tests/Tiles.h */,
+				1DAFFBBB0528453DAF89A6AD /* /Users/wusunquan/Documents/box/testbed/Tests/TimeOfImpact.h */,
+				6F8A2D6E9C5643519F806504 /* /Users/wusunquan/Documents/box/testbed/Tests/Tumbler.h */,
+				4463EF3FC76D487F9312F2F7 /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingFriction.h */,
+				8EE4F1F61A28495EA7C5D6AD /* /Users/wusunquan/Documents/box/testbed/Tests/VaryingRestitution.h */,
+				04F0C417D16C4CA7AC7F0826 /* /Users/wusunquan/Documents/box/testbed/Tests/VerticalStack.h */,
+				3CF2992F33774C72B87A405F /* /Users/wusunquan/Documents/box/testbed/Tests/Web.h */,
+				1599F971AF2B449BB122E57B /* /Users/wusunquan/Documents/box/testbed/Tests/chainProblem.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5CE50EB9A2444EA0AA2FC05A = {
+			isa = PBXGroup;
+			children = (
+				89C6861CBF0146DFBF37B50A /* testbed */,
+				2BA39D516D4B4596A98023BD /* ALL_BUILD */,
+				31522FD6F9D64606B4278DB1 /* ZERO_CHECK */,
+				1E3ED4A38322485CB9C0B336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65E30A9938DB4EB4959B59C4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				641910AE5CA341A881C285F2 /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.cpp */,
+				6E41BE3FAC074A3AAD4D08FA /* /Users/wusunquan/Documents/box/testbed/Framework/Main.cpp */,
+				57183E42A0054AF88183997C /* /Users/wusunquan/Documents/box/testbed/Framework/Test.cpp */,
+				2C955635E84948FEB4F23886 /* /Users/wusunquan/Documents/box/testbed/Tests/TestEntries.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		89C6861CBF0146DFBF37B50A /* testbed */ = {
+			isa = PBXGroup;
+			children = (
+				49D372AC66914B1AA834B51F /* Header Files */,
+				65E30A9938DB4EB4959B59C4 /* Source Files */,
+				8D80098364BC43D3A53CF3B8 /* /Users/wusunquan/Documents/box/testbed/.DS_Store */,
+				82A77B8CD2664DFC82D231D4 /* /Users/wusunquan/Documents/box/testbed/CMakeLists.txt */,
+				43095E063E9B40F4A3C155BE /* /Users/wusunquan/Documents/box/testbed/Data/DroidSans.ttf */,
+			);
+			name = testbed;
+			sourceTree = "<group>";
+		};
+		D6A054CCD7D74FB8A6895A79 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FF17E48948DB4485A35E0CB1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E41A8744C647518EDB6A1B /* testbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CC99462DA047B1B57EB2F7 /* Build configuration list for PBXNativeTarget "testbed" */;
+			buildPhases = (
+				35813C59236947E4B6D27EEE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				502E201CFDF54482852CFC91 /* PBXTargetDependency */,
+			);
+			name = testbed;
+			productName = testbed;
+			productReference = 079AB94CBC744B7AB0287103 /* testbed */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286F2C1F5EF34D74B4A899CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = D4C0566BC0304DABA37279A4 /* Build configuration list for PBXProject "testbed" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9224DE48A9304E989DD87C7E /* Debug */,
+				49761FE8DE66458B8A283CB6 /* Release */,
+				5FDDC6FE57A74D7592CB1242 /* MinSizeRel */,
+				6BA51344ADD04089B293C3A6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5CE50EB9A2444EA0AA2FC05A;
+			projectDirPath = ../../testbed;
+			projectRoot = "";
+			targets = (
+				10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */,
+				8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */,
+				ED9E425F625D429999396885 /* install */,
+				B1E41A8744C647518EDB6A1B /* testbed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		068A80E3D0CE44CF9286AE33 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		10765394C0DB42E7ABE8C0BA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1C3EB098834E4374BCE418D4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/testbed -f /Users/wusunquan/Documents/box/build/testbed/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		46124B7070D74EDAA2859485 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		514D120B4E954DC3929C5F5C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/testbed -f /Users/wusunquan/Documents/box/build/testbed/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9A7D2FB7D5024ABCBD358C72 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wusunquan/Documents/box/build/testbed -f /Users/wusunquan/Documents/box/build/testbed/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35813C59236947E4B6D27EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DE9227FD1497F9B0C9AFE /* /Users/wusunquan/Documents/box/testbed/Framework/DebugDraw.cpp */,
+				5DFDB06195FD4E7492C6B5D1 /* /Users/wusunquan/Documents/box/testbed/Framework/Main.cpp */,
+				1F640325E99B429CA104DDB6 /* /Users/wusunquan/Documents/box/testbed/Framework/Test.cpp */,
+				7CD52B846F0D478FB5380CDD /* /Users/wusunquan/Documents/box/testbed/Tests/TestEntries.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		502E201CFDF54482852CFC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = 415F379DB4E948299B9B2AB3 /* PBXContainerItemProxy */;
+		};
+		5634D35C0E324EF3BFDC3C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584D33F42E04CFD853FFFD9 /* ZERO_CHECK */;
+			targetProxy = 1C635810BDCA4709BBAEF98D /* PBXContainerItemProxy */;
+		};
+		E3AFCA6E005E4266988ABCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C2A3A62D8F4DCA9A6A2686 /* ALL_BUILD */;
+			targetProxy = 28A18D55010D4762B3CA4E39 /* PBXContainerItemProxy */;
+		};
+		F8FBEA1A7B1F445C9C2D9338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E41A8744C647518EDB6A1B /* testbed */;
+			targetProxy = FAD89C932DA741A9897BC826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07606A1348574CA69AC4A043 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0F89C6580A794300BE526E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed/build;
+			};
+			name = Release;
+		};
+		143B6ECAABBC404AA5A9428F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wusunquan/Documents/box/build/Box2D/MinSizeRel/libBox2D.a /Users/wusunquan/Documents/box/build/glew/MinSizeRel/libglew.a /Users/wusunquan/Documents/box/build/glfw/MinSizeRel/libglfw3.a /Users/wusunquan/Documents/box/build/imgui/MinSizeRel/libimgui.a /Users/wusunquan/Documents/box/build/glm/glm/MinSizeRel/libglm_static.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbed;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		17F00F6DEC6A468E8BA94A30 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1AB9D93E85A7435ABD39A047 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		23AFD6764D5B47ACA0D76BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4B277ADE6EF6493E84BC80D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4D70B9ED8AE64246BFE17CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder    -Wall  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wusunquan/Documents/box/build/Box2D/Debug/libBox2D.a /Users/wusunquan/Documents/box/build/glew/Debug/libglew.a /Users/wusunquan/Documents/box/build/glfw/Debug/libglfw3.a /Users/wusunquan/Documents/box/build/imgui/Debug/libimgui.a /Users/wusunquan/Documents/box/build/glm/glm/Debug/libglm_static.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbed;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		59E6DF48A54740D487472351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7B0339EEF22242B39BF5A235 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8A7669DCCA634DB59F4F25DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wusunquan/Documents/box/build/Box2D/RelWithDebInfo/libBox2D.a /Users/wusunquan/Documents/box/build/glew/RelWithDebInfo/libglew.a /Users/wusunquan/Documents/box/build/glfw/RelWithDebInfo/libglfw3.a /Users/wusunquan/Documents/box/build/imgui/RelWithDebInfo/libimgui.a /Users/wusunquan/Documents/box/build/glm/glm/RelWithDebInfo/libglm_static.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbed;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A0301CC95D0C4BF583FA74C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14 -Wno-deprecated-declarations -Wno-reorder     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wusunquan/Documents/box/build/Box2D/Release/libBox2D.a /Users/wusunquan/Documents/box/build/glew/Release/libglew.a /Users/wusunquan/Documents/box/build/glfw/Release/libglfw3.a /Users/wusunquan/Documents/box/build/imgui/Release/libimgui.a /Users/wusunquan/Documents/box/build/glm/glm/Release/libglm_static.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbed;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A7DF12E5BC7441368CD693C8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B309CCF4F5074F69958C6CA5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed/build;
+			};
+			name = MinSizeRel;
+		};
+		B9E6B4757FAF41F29C998F65 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BC2DD965975A4C8C9E1B2F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BDD60BCAE0BE4DC6BC632191 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C79A2C35C35649C48AE86DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E26B64CC3E124EC1B4816C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/wusunquan/Documents/box,/Users/wusunquan/Documents/box/Classes,/Users/wusunquan/Documents/box/glm/glm,/Users/wusunquan/Documents/box/testbed);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FDA1BE4F74A44EAE9BDC5288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/wusunquan/Documents/box/build/testbed/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073656F792AB429B831D4A60 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2DD965975A4C8C9E1B2F8B /* Debug */,
+				E26B64CC3E124EC1B4816C2C /* Release */,
+				BDD60BCAE0BE4DC6BC632191 /* MinSizeRel */,
+				17F00F6DEC6A468E8BA94A30 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49CC99462DA047B1B57EB2F7 /* Build configuration list for PBXNativeTarget "testbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D70B9ED8AE64246BFE17CA2 /* Debug */,
+				A0301CC95D0C4BF583FA74C8 /* Release */,
+				143B6ECAABBC404AA5A9428F /* MinSizeRel */,
+				8A7669DCCA634DB59F4F25DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64CE1F93E7A3417E896AD7E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E6DF48A54740D487472351 /* Debug */,
+				4B277ADE6EF6493E84BC80D5 /* Release */,
+				A7DF12E5BC7441368CD693C8 /* MinSizeRel */,
+				B9E6B4757FAF41F29C998F65 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84D38E5031D04386A4C9AE19 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79A2C35C35649C48AE86DE4 /* Debug */,
+				23AFD6764D5B47ACA0D76BBF /* Release */,
+				1AB9D93E85A7435ABD39A047 /* MinSizeRel */,
+				07606A1348574CA69AC4A043 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4C0566BC0304DABA37279A4 /* Build configuration list for PBXProject "testbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA1BE4F74A44EAE9BDC5288 /* Debug */,
+				0F89C6580A794300BE526E2C /* Release */,
+				B309CCF4F5074F69958C6CA5 /* MinSizeRel */,
+				7B0339EEF22242B39BF5A235 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286F2C1F5EF34D74B4A899CC /* Project object */;
+}

@@ -1,7 +1,10 @@
-make_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.1)
 set(project_name cbox)
-project(${project_name})
-
+project(${project_name}  C CXX)
+message(STATUS "cbox source dir ${PROJECT_SOURCE_DIR} ")
+message(STATUS "cbox binary dir ${PROJECT_BINARY_DIR}")
+message(STATUS "cbox source dir cmake ${CMAKE_SOURCE_DIR}")
+message(STATUS "cbox current source dir ${CMAKE_CURRENT_SOURCE_DIR}")
 set(box2d_root_dir ${CMAKE_SOURCE_DIR}/Box2D)
 set(glew_root_dir ${CMAKE_SOURCE_DIR}/glew)
 set(glfw_root_dir ${CMAKE_SOURCE_DIR}/glfw)
@@ -49,6 +52,7 @@ foreach(FILE ${ALL_FILES})
 endforeach()
 
 
+include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/Classes)
 include_directories(${glm_root_dir})
 
@@ -59,8 +63,8 @@ add_subdirectory(${imgui_root_dir})
 add_subdirectory(${testbed_root_dir})
 add_subdirectory(${glm_root_dir})
 
-add_executable(project_name ${ALL_FILES})
-target_link_libraries(project_name ${glew_lib_name} ${glfw_lib_name} imgui box2d glm_static)
+add_executable(${project_name} ${ALL_FILES})
+target_link_libraries(${project_name} ${glew_lib_name} ${glfw_lib_name} ${imgui_lib_name} ${box2d_lib_name} glm_static)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${PROJECT_NAME})

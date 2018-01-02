@@ -1,4 +1,4 @@
-project(imgui C++)
+project(imgui)
 
 set(imgui_lib_name imgui)
 
